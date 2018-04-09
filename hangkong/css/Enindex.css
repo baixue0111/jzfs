@@ -1,0 +1,264 @@
+/* 设置margin-left: 0px; */
+.enCon-ul .noMarginLeft{
+    margin-left: 0px;
+}
+.enContent{
+    width: 100%;
+    height: 324px;
+    background: #0080cc;
+    padding: 30px 0 80px 0;
+}
+.enConTop-con{
+    width: 1180px;
+    margin: 0 auto;
+    border-top: 1px solid #fff;
+}
+.enCon-title{
+    font-size: 38px;
+    font-family: "Arial-BoldMT";
+    color: #fff;
+    border-top: 3px solid #fff;
+    padding-top: 10px;
+    width: 240px;
+}
+.enCon-ul{
+    margin: 20px auto 0 auto;
+    overflow: hidden;
+}
+.enCon-ul li{
+    float: left;
+    margin-left: 20px;
+    background: rgba(255, 255, 255, .2);
+    width: 280px;
+    height: 140px;
+}
+.list1{
+    padding: 30px 20px 5px 22px;
+}
+.list1 h2{
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 0px;
+}
+.list1-img{
+    overflow: hidden;;
+}
+.list1-img a{
+    font-size: 14px;
+    margin-top: 36px;
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.list1-img img{
+    float: right;
+    width: 112px;
+    height: 91px;
+}
+.list2-img img{
+    width: 130px;
+    height: 80px;
+    float: right;
+}
+.list3-img img{
+    width: 124px;
+    height: 71px;
+    float: right;
+}
+.list4-img img{
+    width: 66px;
+    height: 65px;
+    float: right;
+}
+.enCon-con1{
+    width: 1180px;
+    margin: 80px auto;
+}
+.enCon-left{
+    width: 765px;
+    display: inline-block;
+}
+.enConLeft-title{
+    overflow: hidden;
+    height: 57px;
+    line-height: 57px;
+}
+.enConLeft-title .floatLeft{
+    float: left;
+    font-size: 38px;
+    color: #0180cb;
+    font-weight: bold;
+}
+.enConLeft-title .floatRight{
+    float: right;
+    font-size: 24px;
+    color: #0180cb;
+    /* font-weight: bold; */
+    text-decoration: underline;
+}
+.enConLeft-img{
+    overflow: hidden;
+    margin: 30px 0;
+}
+.enImg-left h3, .enImg-right h3{
+    font-size: 24px;
+    color: #005ea0;
+    float: left;
+    margin-top: 29px;
+}
+.enConLeft-img div{
+    float: left;
+    width: 350px;
+}
+.enConLeft-img div img{
+    float: left;
+    width: 350px;
+    height: 210px;
+}
+.enConLeft-img .enImg-right{
+    float: right;
+    margin-left: 65px;
+}
+.enCon-right{
+    width: 350px;
+    display: inline-block;
+    margin-left: 60px;
+}
+.entitle{
+    width: 1180px;
+    margin: 0 auto 28px auto;
+    color: #0180cb;
+    font-size: 38px;
+}
+.enCon-con2{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 80px;
+}
+.enCon-con2 div{
+    float: left;
+}
+.enCon2-left{
+    background: url("../images/qietu11.jpg") 0 0 no-repeat;
+    background-size: 100% 100%;
+    width: 980px;
+    height: 520px;
+    position: relative;
+}
+.enCon2Title{
+    overflow: hidden;
+}
+.enCon2-title{
+    position: absolute;
+    top: 218px;
+    left: 237px;
+}
+.enCon2-title p{
+    font-size: 38px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 0;
+    height: 40px;
+    line-height: 40px;
+}
+.enCon2-title .enCon2hx{
+    background: #fff;
+    width: 100px;
+    height: 4px;
+    margin-top: 43px;
+    margin-bottom: 31px;
+}
+.enCon2-title .enCon2Click a{
+    font-size: 36px;
+    color: #fff;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+.enCon2-right{
+    background: url("../images/qietu12.jpg") 0 0 no-repeat;
+    background-size: 100% 100%;
+    /* width: 680px; */
+    width: 903px;
+    height: 250px;
+    margin-left: 20px;
+    padding-left: 18px;    
+}
+.enCon2-top h2{
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 0;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 93px;
+}
+.enCon2-top p a{
+    font-size: 20px;
+    color: #fff;
+    font-weight: normal;
+    text-decoration: underline;
+}
+.enCon-num p{
+    margin-bottom: 0px;
+    display: inline-block;
+}
+.enConNum-margin{
+    margin-left: 49px;
+}
+.enCon-num p span{
+    font-size: 16px;
+    color: #fff;
+    margin-left: 19px;
+}
+.enCon-num .spanNoMaigin{
+    margin-left: 0px;
+}
+.enCon-bottom{
+    margin-top: 20px;
+    background: url("../images/qietu13.jpg") 0 0 no-repeat;
+    background-size: 100% 100%;
+    /* width: 680px; */
+    width: 903px;
+    height: 250px;
+}
+.enCon3-top h2{
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 0;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 0px;
+}
+.enCon2-top .enConLineHeight{
+    margin-top: 63px;
+}
+.enCon2Bottom{
+    width: 100%;
+    height: 150px;
+    line-height: 150px;
+    background: #0080cc;
+}
+.enCon2-bottom{
+   width: 1180px;
+   margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+.enCon2-bottom li{
+    float: left;
+    margin-left: 79px;
+}
+.enCon2-bottom .noMarginLi{
+    margin-left: 0px;
+}
+.enCon2-bottom li a{
+    font-size: 20px;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+.enCon2-bottom li a:hover{
+    text-decoration: none;
+}

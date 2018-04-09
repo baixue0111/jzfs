@@ -1,0 +1,186 @@
+body{font-family: "MicrosoftYaHei";}
+#box{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.header{
+    width: 1180px;
+    margin: 0 auto 0 auto;
+    overflow: hidden;
+    font-size: 13px;
+    color: #666;
+    background: #fff;
+    position: relative;
+    padding-top: 20px;
+}
+.top-ul{
+    float: right;
+    margin-bottom: 0px;
+}
+.top-ul li{
+    float: left;
+    margin-left: 25px;
+    padding: 8px 0;
+}
+.header .bg{
+    display: inline-block;
+    background: url('../images/home.jpg') 0 0 no-repeat;
+    background-size: 100% 100%;
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+}
+.header  .first{
+    margin-left: 0;
+    padding-left: 20px;
+}
+.header .colorA a{
+    color: #666;
+}
+.header .ipt{
+    top: 5px;
+    right: 5px;
+    border: 1px solid #ccc;
+    width: 171px;
+    border-radius: 10px;
+    padding: 2px 0px 5px 10px;
+    position: relative;
+    z-index: 1;
+}
+.header .val{
+    border: 0;
+    outline: none;
+    width: 128px;
+}
+.ipt .sou{
+    background: url("../images/sou.jpg") 0 0 no-repeat;
+    background-size: 100% 100%;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    position: absolute;
+    top: 5px;
+    right: 11px;
+    z-index: 2;
+}
+.logo{
+    width: 1180px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo img{
+    width: 510px;
+    height: 75px;
+    float: left;
+}
+.tab{
+    width: 1180px;
+    height: 36px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.tab ul{
+   float: right;
+}
+.tab .tab-ul li{
+    float: left;
+    width: 114px;
+    height: 36px;
+    line-height: 36px; 
+    font-weight: bold;
+    text-align: center;
+}
+.tab a{
+    font-size: 17px;
+    display: block;
+    color: #000;
+    text-decoration:none;
+}
+.tab .active a{
+    color: #fff;
+    background: #0180cb;
+    text-decoration:none;
+}
+.tab a:hover{
+    color: #fff;
+    background: #0180cb;
+    text-decoration:none;
+}
+/* *****************************************  content *********************************** */
+#content{
+    padding-right: 0px;
+    padding-left: 0px;
+    border-top: 3px solid #0180cb;
+}
+.banner1{
+    background: url("../images/banner1.jpg") 0 0 no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 450px;
+}
+
+
+/* *************************************** footer ********************************************* */
+.footer{
+    width: 100%;
+    border-top: 3px solid #0180cb;
+    padding-top: 30px;
+    background: #f0f0f0;
+}
+.col-ul{
+    overflow: hidden;
+    width: 1180px;
+    margin: 0 auto;
+}
+.col-ul .col-list:nth-child(1) {
+    margin-left: 0;
+}
+.col-ul .col-list{
+    float: left;
+    margin-left: 116px;
+}
+.col-list h2{
+    font-size: 21px;
+    margin-bottom: 18px;
+}
+.list-ul li{
+    font-size: 15px;
+    color: #777;
+    margin: 4px 0;
+}
+.foot-con{
+    width: 1180px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+.foot-con img{
+    width: 200px;
+    height: 32px;
+    float: right;
+}
+.foot-bottom{
+    width: 1180px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    margin: 20px auto 0 auto;
+    border-top: 1px solid #d8d8d8;
+    font-size: 13px;
+    color: #666;
+}
+.bottom-con{
+    overflow: hidden;
+    height: 26px;
+}
+.foot-bottom p{
+    margin-bottom: 0px;
+}
+.bottom-con div{
+    float: left;
+}
+.bottom-con ul{
+    float: right;
+}
+.bottom-con ul li{
+    float: left;
+    margin: 0 4px;
+}

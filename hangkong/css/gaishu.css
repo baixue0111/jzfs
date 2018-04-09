@@ -1,0 +1,112 @@
+#content{
+    background: #f9f7f6;
+}
+.banner1{
+    background: url("../images/banner2.jpg") 0 0 no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 450px;
+}
+.gaishu{
+    width: 1180px;
+    margin: 35px auto 0 auto;
+}
+.gaishuCon{
+    padding-bottom: 30px;
+}
+.gaishu-ul{
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+.gaishu-ul li{
+    float: left;
+    margin-left: 20px;
+}
+.gaishu-ul .gaishu-left{
+    margin-left: 0;
+    width: 379px;
+}
+.titleFont{
+    font-size: 21px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.desc{
+    padding: 5px;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0px 0px 2px #ccc;
+    overflow: hidden;
+    background: #fff;
+}
+.desc img{
+    width: 370px;
+    height: 209px;
+    float: left;
+}
+.desc-p{
+    width: 370px;
+    text-align: left;
+    float: left;
+    letter-spacing: 2px;
+    text-indent: 20px;
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+    border-bottom: 1px dashed #ccc;
+    padding: 0 8px 5px;
+}
+
+
+.ljgd-p{
+    float: left;
+    background: url("../images/jt_07.png") 0 0 no-repeat;
+    padding-left: 25px;
+    font-size: 14px;
+    color: #333;
+    height: 16px;
+    line-height: 16px;
+    margin-left: 5px;
+}
+.gaishuR-ul{
+    padding: 5px;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0px 0px 2px #ccc;
+    overflow: hidden;
+    background: #fff;
+}
+.gaishuR-ul li{
+    float: left;
+}
+
+.yj{
+    margin-top: 50px;
+}
+.yj h3{
+    font-size: 18px;
+}
+.yj p{
+    font-size: 14px;
+    color: #333;
+}
+.dw-ul p{
+    margin: 10px 0;
+}
+.gaishu-con{
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 26px;
+}
+.ljgd2{
+    overflow: hidden;
+    margin-top: 43px;
+}
+.gaishu-ul .gaiul-right{
+    float: right;
+    margin-left: 0;
+    margin-left: 14px;
+}
+.gaiul-right img{
+    width: 473px;
+    height: 361px;
+    float: right;
+}
