@@ -84,138 +84,48 @@
     float: left;
     margin-left: 47px;
 }
-.secondConRight h2{
+.secondErTitle{
     font-size: 22px;
     color: #1a1a1a;
     margin-bottom: 40px;
     font-weight: bold;
 }
 .secondConRight-con{
-    padding: 50px 40px 0 40px;
+    padding: 50px 40px 60px 40px;
     width: 920px;
     background: #fff
 }
-
-.jtfcCon{
-    overflow: hidden;
-    margin-bottom: 20px;
+.newsDetailTitle{
+    text-align: center;
 }
-.jtfcCon .jtfcLeft{
-    float: left;
-    width: 419px;
-}
-.jtfcLeft h2{
-    font-size: 26px;
-    color: #0081cc;
-    margin-bottom: 20px;    
-}
-.jtfcLeft h3{
+.newsDetailTitle h2{
     font-size: 18px;
     color: #333;
-    font-weight: bold;
-}
-.jtfcLeft p{
-    font-size: 14px;
-    color: #545454;
-    line-height: 24px;
-}
-.jtfcLeft p a{
-    font-size: 14px;
-    text-decoration: underline;
-    margin-left: 10px;
-    display: inline-block;
-    color: #0081cc;
-}
-.jtfcCon .jtfcRight{
-    float: left;
-    margin-left: 80px;
-}
-.jtfcRight img{
-    float: left;
-    width: 340px;
-    height: 190px;
-}
-.jtfcList{
     margin-bottom: 0px;
 }
-.jtfcList li{
-    border-top: 1px solid #ccc;
-    padding: 30px 0;
-    overflow: hidden;
-}
-.listLeft{
-    float: left;
-    background: #efefef;
-    /* width: 100px; */
-    width: 107px;
-    /* height: 120px; */
-    padding: 20px 0px 15px 9px;
-}
-.listLeft p{
-    margin-bottom: 0;
-}
-.listLeft .dateMouth{
-    font-size: 36px;
+.newsDetailTitle p{
+    font-size: 14px;
     color: #0081cc;
-    font-weight: bold;
+    margin-bottom: 0px;
 }
-.listLeft .dateYears{
-    font-size: 16px;
-    color: #333;
-    margin-top: 8px;
-    width: 51px;
-}
-.listRight{
-    float: left;
-    margin-left: 20px;
-    width: 712px;
-}
-.listRight h2{
-    margin-bottom: 19px;;
-    font-size: 18px;
-    color: #333;
-    width: 508px;
+.newsDetailImg{
     overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    margin-top: 5px;
+    width: 476px;
+    margin: 50px auto 40px auto;
 }
-.listRight p{
+.newsDetailImg img{
+    float: left;
+    width: 476px;
+    height: 265px;
+}
+.newArticle p{
     font-size: 14px;
     color: #545454;
-    margin-bottom: 22px;
-    width: 620px;
-    height: 46px;
-    overflow: hidden;
-    text-overflow:ellipsis; 
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
+    text-indent: 27px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    line-height: 25px;
 }
-.listRight a{
-    font-size: 14px;
-    color: #0081cc;
-    text-decoration: underline;
-}
-.page{
-    margin: 0 auto;
-    overflow: hidden;
-    width: 190px;
-    text-align: center;
-}
-.page li{
-    float: left;
-    width: 22px;
-    height: 22px;
-    line-height: 22px;
-    text-align: center;
-    font-size: 16px;
-    color: #b3b3b3;
-    border: 1px solid #e6e5e3;
-    background: #fff;
-    margin: 0 4px;
-}
-.page .selectActive{
-    background: #0081cc;
-    color: #fff;
+.newArticle .noMargin{
+    margin-top: 0;
 }
