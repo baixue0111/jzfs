@@ -131,7 +131,7 @@ body{font-family: "MicrosoftYaHei";}
     float: left;
 }
 .gjgsMenuRight li{
-    float: none;;
+    float: none;
     border-bottom: 1px dashed #999;
     margin-top: -4px;
     font-weight: bold;
@@ -139,6 +139,7 @@ body{font-family: "MicrosoftYaHei";}
 .gjgsMenuRight li a{
     font-size: 15px;
     color: #000;
+    /* background: #fff; */
 }
 /* ****************************************************导航菜单****************************************** */
 .tab a{
@@ -150,10 +151,17 @@ body{font-family: "MicrosoftYaHei";}
     color: #000;
     text-decoration: none;
 }
-.tab .active a{
-    color: #fff;
+.active{
     background: #0180cb;
+}
+.active a{
+    color: #fff;
     text-decoration:none;
+}
+.gjgsMenuRight li a{
+    font-size: 15px;
+    color: #000;
+    /* border-bottom: 1px dashed #999; */
 }
 .tab-ul a:hover{
     color: #fff;

@@ -6,7 +6,7 @@ body{font-family: "MicrosoftYaHei";}
 .header{
     width: 1180px;
     margin: 0 auto 0 auto;
-    overflow: hidden;
+    /* overflow: hidden; */
     font-size: 13px;
     color: #666;
     background: #fff;
@@ -77,10 +77,10 @@ body{font-family: "MicrosoftYaHei";}
     width: 1180px;
     height: 36px;
     margin: 0 auto;
-    overflow: hidden;
 }
-.tab ul{
+.tab-ul{
    float: right;
+   margin-bottom: 0px;
 }
 .tab .tab-ul li{
     float: left;
@@ -89,7 +89,61 @@ body{font-family: "MicrosoftYaHei";}
     line-height: 36px; 
     font-weight: bold;
     text-align: center;
+    position: relative;
+    z-index: 12;
 }
+/**************************************导航菜单开始********************************************/
+.gjgsMenu{
+    padding: 25px 20px;
+    overflow: hidden;
+    width: 410px;
+    display: block;
+    position: absolute;
+    top: 38px;
+    z-index: 10000;
+    background: #fff;
+    display: none;
+}
+.positionLeft1{
+    left: -269px;
+}
+.positionLeft3{
+    left: -275px;
+}
+.positionLeft4{
+    left: -280px;
+}
+.positionLeft5{
+    left: -269px;
+}
+.positionLeft6{
+    left: -296px;
+}
+.gjgsMenuLeft{
+    float: left;
+    margin-right: 20px;
+}
+.gjgsMenuLeft img{
+    width: 229px;
+    height: 176px;
+    float: left;
+}
+.gjgsMenuRight{
+    width: 100px;
+    float: left;
+}
+.gjgsMenuRight li{
+    float: none;
+    border-bottom: 1px dashed #999;
+    margin-top: -4px;
+    font-weight: bold;
+}
+.gjgsMenuRight li a{
+    font-size: 15px;
+    color: #000;
+    /* background: #fff; */
+}
+/****************************************导航菜单结束**********************************************************/
 .tab a{
     font-size: 17px;
     display: block;

@@ -184,7 +184,8 @@
 }
 .mask{
       position: absolute;
-      background: rgba(0, 0, 0, .2);
+      background: url("../images/aBgImg.png") 0 0 no-repeat;
+      background-size: 100% 100%;
       width: 280px;
       height: 127px;
       text-align: center;
@@ -197,7 +198,17 @@
 }
 .mask .zsj{
       border-bottom: 2px solid #fff;
+      font-weight: bold;
+      padding-bottom: 2px;
 }
+.mask a{
+      color: #fff;
+      text-decoration: none;
+}
+.mask a:hover{
+      text-decoration: none;
+}
+
 .mask p{
       margin-top: 3px;
 }
@@ -225,4 +236,12 @@
       font-family: "FZDHTJW-GB1-0";
       color: #4d4d4d;
       cursor: pointer;
+      font-weight: bold;
+}
+.qxqy li a{
+      color: #4d4d4d;
+      font-size: 21px;
+}
+.qxqy li a:hover{
+      text-decoration: none;
 }

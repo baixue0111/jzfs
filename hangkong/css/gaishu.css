@@ -68,6 +68,10 @@
     line-height: 16px;
     margin-left: 5px;
 }
+.ljgd-p a{
+    color: #333;
+    text-decoration: none;
+}
 .gaishuR-ul{
     padding: 5px;
     border: 1px solid #f0f0f0;
