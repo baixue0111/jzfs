@@ -82,19 +82,52 @@ body{font-family: "MicrosoftYaHei";}
 .tab ul{
    float: right;
 }
+.tab-ul{
+    margin-bottom: 0px;
+}
 .tab .tab-ul li{
     float: left;
-    width: 114px;
-    height: 36px;
-    line-height: 36px; 
     font-weight: bold;
     text-align: center;
+    position: relative;
+    z-index: 12;
+}
+.gjgsMenu{
+    padding: 25px 20px;
+    overflow: hidden;
+    width: 410px;
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    z-index: 10000;
+    background: #fff;
+}
+.gjgsMenuLeft{
+    float: left;
+    margin-right: 20px;
+}
+.gjgsMenuLeft img{
+    width: 250px;
+    height: 210px;
+    float: left;
+}
+.gjgsMenuRight li{
+    float: none;;
+    border-bottom: 1px dashed #999;
+    margin-top: 10px;
+    /* height: 26px;
+    line-height: 26px; */
+    font-weight: bold;
 }
 .tab a{
+    width: 114px;
+    height: 36px;
+    line-height: 36px;
     font-size: 17px;
     display: block;
     color: #000;
-    text-decoration:none;
+    text-decoration: none;
 }
 .tab .active a{
     color: #fff;

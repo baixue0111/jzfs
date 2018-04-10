@@ -91,84 +91,45 @@
     font-weight: bold;
 }
 .secondConRight-con{
-    padding: 50px 40px 60px 40px;
-    text-align: center;
-    background: #fff;
+    padding: 30px 20px 40px 20px;
     width: 920px;
+    background: #fff;
 }
-.secondConRight-con h3{
+.jshcyTitle{
+    overflow: hidden;
+    padding-left: 40px;
+}
+.jshcyTitle span{
+    float: left;
     font-size: 21px;
+    color: #0081cc;
+}
+.jshcyTitle .jshzx{
+    font-size: 16px;
     color: #333;
-    font-weight: bold;
+    margin-left: 44px;
+}
+.jshcyDesc{
+    background: #efefef;
+    padding: 25px 20px;
     overflow: hidden;
 }
-.secondRightImg{
-    width: 372px;
-    height: 247px;
-    margin: 30px auto 45px auto;
-}
-.secondRightImg::after{
-    height: 0;
-    content: "";
-    display: block;
-    visibility: hidden;
-    clear: both;
-}
-.secondRightImg img{
-    width: 372px;
-    height: 247px;
+.jshcyDesc p{
     float: left;
-}
-.secondRightText p{
     font-size: 14px;
     color: #545454;
-    text-align: left;
+    width: 667px;
+    line-height: 25px;
 }
-.secondRightText .textBottom{
-    margin: 3px auto 40px auto;
-}
-.secondRightBottom:after{
-    content: "";
-    height: 0;
-    display: block;
-    clear: both;
-    visibility: hidden;
-}
-.secondRightBottom div{
+.jshcyDesc img{
     float: left;
+    width: 144px;
+    height: 192px;
+    margin-left: 28px;
 }
-.secondVideo{
-    background: url("../images/videoBg.jpg") 0 0 no-repeat;
-    background-size: 100% 100%;
-    width: 462px;
-    height: 283px;
+.dshcyList li{
+    margin-top: 40px;
 }
-.secondErCode{
-    margin-left: 51px;
-}
-.secondEr:after{
-    height: 0;
-    content: "";
-    display: block;
-    clear: both;
-    visibility: hidden;
-}
-.secondEr li{
-    float: left;
-}
-.secondEr li h3{
-    font-size: 16px;
-    color: #545454;
-    margin-top: 18px;
-}
-.secondEr .erRight-li{
-    margin-left: 21px;
-}
-.secondErCode .erDesc{
-    width: 324px;
-    font-size: 14px;
-    color: #545454;
-    text-align: left;
-    margin-bottom: 0px;
-    letter-spacing: .7px;
+.dshcyList .noMarginTop{
+    margin-top: 0;
 }

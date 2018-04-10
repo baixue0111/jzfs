@@ -89,86 +89,111 @@
     color: #1a1a1a;
     margin-bottom: 40px;
     font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
 }
 .secondConRight-con{
     padding: 50px 40px 60px 40px;
-    text-align: center;
-    background: #fff;
     width: 920px;
+    background: #fff;
 }
-.secondConRight-con h3{
+
+.dshcyShow .dshcyName{
     font-size: 21px;
+    color: #0081cc;
+    margin: 0;
+}
+
+.dshcyShow .dshcyPosition{
+    font-size: 16px;
     color: #333;
-    font-weight: bold;
+    margin: 20px 0;
+}
+.displayul{
+    height: 350px;
+    overflow: hidden;   
+}
+.displayul .displayNone{
+    display: none;
+}
+.displayul .displayBlock{
+    display: block;
+}
+
+.dshcyText{
     overflow: hidden;
 }
-.secondRightImg{
-    width: 372px;
-    height: 247px;
-    margin: 30px auto 45px auto;
-}
-.secondRightImg::after{
-    height: 0;
-    content: "";
-    display: block;
-    visibility: hidden;
-    clear: both;
-}
-.secondRightImg img{
-    width: 372px;
-    height: 247px;
+.dshcyText p{
+    width: 606px;
     float: left;
-}
-.secondRightText p{
+    margin-right: 78px;
     font-size: 14px;
     color: #545454;
-    text-align: left;
+    line-height: 25px;
 }
-.secondRightText .textBottom{
-    margin: 3px auto 40px auto;
-}
-.secondRightBottom:after{
-    content: "";
-    height: 0;
-    display: block;
-    clear: both;
-    visibility: hidden;
-}
-.secondRightBottom div{
+.dshcyText img{
+    width: 153px;
+    height: 218px;
     float: left;
 }
-.secondVideo{
-    background: url("../images/videoBg.jpg") 0 0 no-repeat;
-    background-size: 100% 100%;
-    width: 462px;
-    height: 283px;
+
+.dszBoxTitle .lzm{
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
 }
-.secondErCode{
-    margin-left: 51px;
+.dshcyShow .activeName{
+    color: #0081cc;
 }
-.secondEr:after{
-    height: 0;
-    content: "";
-    display: block;
-    clear: both;
-    visibility: hidden;
+.dszBoxTitle .lzmdsz{
+    font-size: 18px;
+    color: #4c4c4c;
+    margin-left: 83px;
 }
-.secondEr li{
-    float: left;
-}
-.secondEr li h3{
+.dszBoxFoot span{
     font-size: 16px;
-    color: #545454;
-    margin-top: 18px;
+    color: #4d4d4d;
 }
-.secondEr .erRight-li{
-    margin-left: 21px;
+
+.persons{
+    overflow: hidden;
 }
-.secondErCode .erDesc{
-    width: 324px;
-    font-size: 14px;
-    color: #545454;
-    text-align: left;
-    margin-bottom: 0px;
-    letter-spacing: .7px;
+.persons ul{
+    float: left;
 }
+.persons ul li{
+    width: 400px;
+    float: left;
+    margin-top: 30px;
+    background: #efefef;
+    padding: 39px 27px 31px 30px;
+}
+.persons ul .presonMarginLeft{
+    margin-left: 40px;
+}
+
+.dszBoxBg{
+    display: inline-block;
+    background: url("../images/jthui_03.png") 0 0 no-repeat;
+    width: 18px;
+    height: 16px;
+    cursor: pointer;
+    margin-left: 100px;
+    float: right;
+}
+.dszBoxBgActive{
+    background: url("../images/xsjt_07.png") 0 0 no-repeat;
+}
+.personDesc{
+    overflow: hidden;
+    width: 336px;
+    font-size: 16px;
+    line-height: 16px;
+}
+.personDesc .personName{
+    float: left;
+    font-size: 16px;
+    color: #4c4c4c;
+    cursor: pointer;
+}
+

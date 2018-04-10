@@ -1,10 +1,11 @@
 #content{
     background: #f9f8f6;
+    padding-bottom: 60px;
 }
 .secondCon{
     width: 1180px;
     margin: 0 auto;
-    padding: 40px 0 60px 0;
+    padding: 40px 0 30px 0;
 }
 .secondCon:after{
     content: "";
@@ -76,7 +77,6 @@
 }
 .secondList li:hover a{
     color: #fff;
-    
 }
 
 /***********************************secondConRight*****************************************/
@@ -91,84 +91,130 @@
     font-weight: bold;
 }
 .secondConRight-con{
-    padding: 50px 40px 60px 40px;
-    text-align: center;
-    background: #fff;
+    padding: 50px 40px 0 40px;
     width: 920px;
+    background: #fff
 }
-.secondConRight-con h3{
-    font-size: 21px;
+
+.jtfcCon{
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.jtfcCon .jtfcLeft{
+    float: left;
+    width: 419px;
+}
+.jtfcLeft h2{
+    font-size: 26px;
+    color: #0081cc;
+    margin-bottom: 20px;    
+}
+.jtfcLeft h3{
+    font-size: 18px;
     color: #333;
     font-weight: bold;
+}
+.jtfcLeft p{
+    font-size: 14px;
+    color: #545454;
+    line-height: 24px;
+}
+.jtfcLeft p a{
+    font-size: 14px;
+    text-decoration: underline;
+    margin-left: 10px;
+    display: inline-block;
+}
+.jtfcCon .jtfcRight{
+    float: left;
+    margin-left: 80px;
+}
+.jtfcRight img{
+    float: left;
+    width: 340px;
+    height: 190px;
+}
+.jtfcList{
+    margin-bottom: 0px;
+}
+.jtfcList li{
+    border-top: 1px solid #ccc;
+    padding: 30px 0;
     overflow: hidden;
 }
-.secondRightImg{
-    width: 372px;
-    height: 247px;
-    margin: 30px auto 45px auto;
-}
-.secondRightImg::after{
-    height: 0;
-    content: "";
-    display: block;
-    visibility: hidden;
-    clear: both;
-}
-.secondRightImg img{
-    width: 372px;
-    height: 247px;
+.listLeft{
     float: left;
+    background: #efefef;
+    /* width: 100px; */
+    width: 107px;
+    /* height: 120px; */
+    padding: 20px 0px 15px 9px;
 }
-.secondRightText p{
-    font-size: 14px;
-    color: #545454;
-    text-align: left;
+.listLeft p{
+    margin-bottom: 0;
 }
-.secondRightText .textBottom{
-    margin: 3px auto 40px auto;
+.listLeft .dateMouth{
+    font-size: 36px;
+    color: #0081cc;
+    font-weight: bold;
 }
-.secondRightBottom:after{
-    content: "";
-    height: 0;
-    display: block;
-    clear: both;
-    visibility: hidden;
-}
-.secondRightBottom div{
-    float: left;
-}
-.secondVideo{
-    background: url("../images/videoBg.jpg") 0 0 no-repeat;
-    background-size: 100% 100%;
-    width: 462px;
-    height: 283px;
-}
-.secondErCode{
-    margin-left: 51px;
-}
-.secondEr:after{
-    height: 0;
-    content: "";
-    display: block;
-    clear: both;
-    visibility: hidden;
-}
-.secondEr li{
-    float: left;
-}
-.secondEr li h3{
+.listLeft .dateYears{
     font-size: 16px;
-    color: #545454;
-    margin-top: 18px;
+    color: #333;
+    margin-top: 8px;
+    width: 51px;
 }
-.secondEr .erRight-li{
-    margin-left: 21px;
+.listRight{
+    float: left;
+    margin-left: 20px;
+    width: 712px;
 }
-.secondErCode .erDesc{
-    width: 324px;
+.listRight h2{
+    margin-bottom: 19px;;
+    font-size: 18px;
+    color: #333;
+    width: 508px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 5px;
+}
+.listRight p{
     font-size: 14px;
     color: #545454;
-    text-align: left;
-    margin-bottom: 0px;
-    letter-spacing: .7px;
+    margin-bottom: 22px;
+    width: 620px;
+    height: 46px;
+    overflow: hidden;
+    text-overflow:ellipsis; 
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.listRight a{
+    font-size: 14px;
+    color: #0081cc;
+    text-decoration: underline;
+}
+.page{
+    margin: 0 auto;
+    overflow: hidden;
+    width: 190px;
+    text-align: center;
+}
+.page li{
+    float: left;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    font-size: 16px;
+    color: #b3b3b3;
+    border: 1px solid #e6e5e3;
+    background: #fff;
+    margin: 0 4px;
+}
+.page .selectActive{
+    background: #0081cc;
+    color: #fff;
 }

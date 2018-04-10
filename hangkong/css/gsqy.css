@@ -91,84 +91,11 @@
     font-weight: bold;
 }
 .secondConRight-con{
-    padding: 50px 40px 60px 40px;
+    margin-bottom: 60px;
     text-align: center;
-    background: #fff;
     width: 920px;
 }
-.secondConRight-con h3{
-    font-size: 21px;
-    color: #333;
-    font-weight: bold;
-    overflow: hidden;
-}
-.secondRightImg{
-    width: 372px;
-    height: 247px;
-    margin: 30px auto 45px auto;
-}
-.secondRightImg::after{
-    height: 0;
-    content: "";
-    display: block;
-    visibility: hidden;
-    clear: both;
-}
-.secondRightImg img{
-    width: 372px;
-    height: 247px;
-    float: left;
-}
-.secondRightText p{
-    font-size: 14px;
-    color: #545454;
-    text-align: left;
-}
-.secondRightText .textBottom{
-    margin: 3px auto 40px auto;
-}
-.secondRightBottom:after{
-    content: "";
-    height: 0;
-    display: block;
-    clear: both;
-    visibility: hidden;
-}
-.secondRightBottom div{
-    float: left;
-}
-.secondVideo{
-    background: url("../images/videoBg.jpg") 0 0 no-repeat;
-    background-size: 100% 100%;
-    width: 462px;
-    height: 283px;
-}
-.secondErCode{
-    margin-left: 51px;
-}
-.secondEr:after{
-    height: 0;
-    content: "";
-    display: block;
-    clear: both;
-    visibility: hidden;
-}
-.secondEr li{
-    float: left;
-}
-.secondEr li h3{
-    font-size: 16px;
-    color: #545454;
-    margin-top: 18px;
-}
-.secondEr .erRight-li{
-    margin-left: 21px;
-}
-.secondErCode .erDesc{
-    width: 324px;
-    font-size: 14px;
-    color: #545454;
-    text-align: left;
-    margin-bottom: 0px;
-    letter-spacing: .7px;
+.secondConRight-con img{
+    width: 919px;
+    height: 770px;
 }
