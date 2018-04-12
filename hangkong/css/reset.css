@@ -1,50 +1,13 @@
-body {
-    font-family:arial,helvetica,sans-serif;
-    font-size:13px;
-    font-size-adjust:none;
-    font-stretch:normal;
-    font-style:normal;
-    font-variant:normal;
-    font-weight:normal;
-    line-height:1.4;
-    text-align:center;
-    }
-    body, ul, ol, dl, dd, h1, h2, h3, h4, h5, h6, p, form, fieldset, legend, input, textarea, select, button, th, td {
-    margin:0;
-    padding:0;
-    }
-    h1, h2, h3, h4, h5, h6 {
-    font-size:100%;
-    font-weight:normal;
-    }
-    table {
-    font-size:inherit;
-    }
-    input, select {
-    font-family:arial,helvetica,clean,sans-serif;
-    font-size:100%;
-    font-size-adjust:none;
-    font-stretch:normal;
-    font-style:normal;
-    font-variant:normal;
-    font-weight:normal;
-    line-height:normal;
-    }
-    button {
-    overflow:visible;
-    }
-    th, em, strong, b, address, cite {
-    font-style:normal;
-    font-weight:normal;
-    }
-    li {
-    list-style-image:none;
-    list-style-position:outside;
-    list-style-type:none;
-    }
-    img, fieldset {
-    border:0 none;
-    }
-    ins {
-    text-decoration:none;
-    }
+/* CSS Document */
+@charset "utf-8";
+*{ margin:0; padding:0; -webkit-text-size-adjust:none; /*苹果移动设备上会识别，用于保证文字大小*/ -webkit-touch-callout:none; word-wrap: break-word; }
+html{ overflow-y:scroll;  overflow-x:hidden;}
+body{ font-size:12px; font-family: "微软雅黑"; -webkit-font-smoothing:antialiased;  text-rendering: optimizeLegibility; }   
+h1, h2, h3, h4, h5, h6, em, b, i, label,dl,dt{ font-style:normal; font-weight:normal; margin:0px; padding:0px;}
+ol, ul{ margin: 0px; }
+ul li{ list-style:none; margin: 0px; }
+img{ border:none; padding:0; margin:0px; display:inline-block; }
+input[type="text"],input[type="submit"],select,textarea{ outline: none; -webkit-appearance: none; /*解决 苹果手机给input样式的修饰问题*/ border:none; font-family:"黑体",Arial,helvetica,simhei,sans-serif; }
+p{ line-height:22px; color:#999999; margin-bottom:0px; }
+a { color:#999999; text-decoration:none; }
+a:hover{ color:#ff6600; text-decoration: none; }
