@@ -1,0 +1,36 @@
+/* *************************************************底部菜单开始 ****************************************** */
+.foot-menu{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-top: .01rem solid #d3d3db;
+    padding: .12rem .5rem;
+    background: #fff;
+    width: 88%;
+}
+.menu-list{
+    overflow: hidden;
+    width: 95%;
+    margin: 0 auto;
+}
+.menu-list li{
+    float: left;
+    margin-left: .85rem;
+    text-align: center;
+}
+.menu-list li:nth-child(1) {
+    margin-left: 0;
+}
+.menu-item img{
+    width: .51rem;
+    height: .5rem;
+}
+.menu-item h3{
+    font-size: .22rem;
+    color: rgb(102, 102, 102);
+    margin-top: .11rem;
+    font-weight: 100;
+}
+.menuItem-active h3{
+    color: rgb(76, 140, 229);
+}

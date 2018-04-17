@@ -1,0 +1,126 @@
+.wydk-container{
+    width: 100%;
+}
+.navbar{
+    position: relative;
+    width: 100%;
+    height: 1.08rem;
+    margin-top: .3rem;
+    margin-bottom: .6rem;
+}
+
+.nav-return{
+    margin-top: .12rem;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: .43rem;
+    overflow: hidden;
+    line-height: .43rem;
+}
+.nav-return img{
+    width: .25rem;
+    height: .43rem;
+    float: left;
+}
+.nav-return span{
+    font-size: .17rem;
+    color: rgb(2, 121, 251);
+    float: left;
+    margin-left: .14rem;
+    font-weight: bold;
+}
+.navTitle{
+    font-size: .36rem;
+    color: rgb(51, 51, 51);
+    position: absolute;
+    top: .09rem;
+    left: 3.06rem;
+    font-weight: bold;
+}
+.ljsq-con{
+    padding: 0 .48rem;
+}
+.item-top{
+    height: .46rem;
+    line-height: .46rem;
+    padding: 0 .1rem;
+    text-align: center;
+    border: .02rem solid #ccc;
+    font-size: .32rem;
+    color: rgb(77, 77, 77);
+    width: 2.38rem;
+    margin: 0 auto;
+}
+.item-special{
+    width: 2.6rem;
+}
+.text-both{
+    display: inline-block;
+    width: .04rem;
+    height: .1rem;
+    background: #f25445;
+    margin-bottom: .05rem;
+}
+.text-con{
+    display: inline-block;    
+    font-size: .32rem;
+    color: rgb(77, 77, 77);
+    margin: 0 .17rem;
+}
+.item-con{
+    position: relative;
+}
+.hr{
+    width: 2.2rem;
+    height: .02rem;
+    background: #ccc;
+}
+.hr-left{
+    position: absolute;
+    top: 50%;
+    left: 2%;
+}
+.special-left{
+    left: -3%;
+}
+.hr-right{
+    position: absolute;
+    top: 50%;
+    right: 2%;
+}
+.special-right{
+    right: -3%;
+}
+.cpjj{
+    font-size: .28rem;
+    color: rgb(102, 102, 102);
+    margin-top: .25rem;
+    line-height: .4rem;
+    margin-bottom: .9rem;
+}
+.sqzl{
+    margin-top: .25rem;
+    margin-bottom: .9rem;
+}
+.sqzl li{
+    font-size: .28rem;
+    color: rgb(102, 102, 102);
+    margin-top: .10rem;
+    line-height: .4rem;
+}
+.footBox{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: url("../images/foot-bg.jpg") 0 0 no-repeat;
+    height: .8rem;
+    text-align: center;
+    background-size: 100% 100%;
+    width: 100%;
+    line-height: .8rem;
+}
+.footBox span{
+    font-size: .32rem;
+    color: #fff;
+}

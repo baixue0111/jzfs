@@ -1,0 +1,322 @@
+.container{
+    width: 100%;
+    height: 100%;
+}
+.navbar{
+    position: relative;
+    width: 100%;
+    height: 1.08rem;
+    margin-top: .3rem;
+}
+.sys{
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: .43rem;
+}
+.sys img{
+    width: .3rem;
+    height: .3rem;
+}
+.sys h3{
+    font-size: .2rem;
+    color: rgb(153, 153, 153);
+    margin-top: .12rem;
+}
+.navTitle{
+    font-size: .36rem;
+    color: rgb(51, 51, 51);
+    position: absolute;
+    top: .09rem;
+    left: 3.06rem;
+    font-weight: bold;
+}
+.message{
+    position: absolute;
+    text-align: center;
+    top: 0;
+    right: .43rem;
+}
+.message img{
+    width: .36rem;
+    height: .33rem;
+}
+.message h3{
+    font-size: .2rem;
+    color: rgb(153, 153, 153);
+    margin-top: .12rem;
+}
+/* ************************************轮播样式************************************************** */
+.lunboBox{
+    width: 100%;
+    height: 3.42rem;
+    position: relative;
+}
+.lunbo{
+    width: 100%;
+    height: 3.42rem;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -50%;
+}
+.list li{
+    position: absolute;
+    top: 0;
+    left: 0;
+    list-style: none;
+    opacity: 0;
+    transition: all .3s ease-out;
+}
+.list li:after{
+    content: "";
+    height: 0;
+    clear: both;
+    display: block;
+    visibility: hidden;
+}
+.list li img{
+    width: 6.9rem;
+    height: 3.42rem;
+    float: left;
+}
+.list .item1{
+    transform: translate3d(5.98rem, 0, 0) scale(.81);
+    transform-origin: 100% 50%;
+    opacity: .8;
+    z-index: 2; 
+}
+.list .item2{
+    transform: translate3d(0.3rem, 0, 0) scale(1);
+    opacity: 1;
+    z-index: 3;
+}
+.list .item3{
+    transform: translate3d(-6.7rem, 0, 0) scale(.81);
+    transform-origin: 100% 50%;
+    opacity: .8;
+    z-index: 2;
+}
+.btnGroup{
+    position: absolute;
+    bottom: 23px;
+    left: 50%;
+    width: 1.5rem;
+    margin-left: -.75rem;
+    height: .05rem;
+    cursor: pointer;
+    z-index: 100;
+}
+.btnGroup span{
+    display: inline-block;
+    width: .36rem;
+    height: .04rem;
+    background: rgba(255, 255, 255, .7);
+}
+.btnGroup .show{
+    background: #fff;
+}
+
+/* ******************************************小横线************************************************** */
+.hr{
+    width: 100%;
+    margin-top: .68rem;
+    background: #f3f3f3;
+    height: .14rem;
+}
+
+/* ****************************************轮播2********************************************************* */
+.lunboBox2{
+    padding-top: .2rem;
+    padding-left: .29rem;
+    margin-bottom: .52rem;
+}
+.top{
+    overflow: hidden;
+    padding-right: .4rem;
+    line-height: .36rem;
+    margin-bottom: .31rem;
+}
+.top h3:nth-child(1){
+    float: left;
+    font-size: .34rem;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+}
+.top h3:nth-child(2){
+    float: right;
+    font-size: .28rem;
+    font-weight: 100;
+}
+.top h3 a{
+    color: rgb(153, 153, 153);
+}
+.swiper-container{
+    width: 100%;
+    /* height: 1rem; */
+}
+
+.border1{
+    border: .02rem solid #3c56ff;
+} 
+.swiper-wrapper{
+    width: 100%;
+    overflow-x: auto;
+}
+.swiper-wrapper li:nth-child(1) {
+    margin-left: 0;
+}
+.swiper-slide{
+    width: 2.7rem;
+    padding-top: .21rem;
+    padding-left: .14rem;
+    position: relative;
+    margin-left: .19rem;
+}
+.swiper-slide h2{
+    font-size: .28rem;
+    color: rgb(51, 51, 51);
+    border-left: 2px solid #3c56ff;
+    padding-left: .1rem;
+}
+.swiper-bottom{
+    overflow: hidden;
+    margin-top: .20rem;
+    
+}
+.swiper-bottom p{
+    float: left;
+    width: 1.8rem;
+    font-size: .2rem;
+    color: rgb(102, 102, 102);
+    margin-bottom: .22rem;
+    margin-right: .1rem;
+    position: relative;
+    z-index: 2;
+    height: 0.96rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+.swiper-bottom img{
+    width: 1.08rem;
+    height: 1.09rem;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.border2{
+    border: .02rem solid #8953ec;
+}
+
+/* **********************************************************贷款进度开始************************************************************ */
+.dkjd{
+    padding-top: 0;
+}
+.dkjd-list{
+    overflow: hidden;
+    padding-right: .29rem;
+}
+.dkjd-list li{
+    float: left;
+    margin-right: .10rem;
+    border: .01rem solid #ccc;
+    padding: .23rem .14rem .16rem .14rem;
+    text-align: center;
+    width: 1.94rem;
+}
+.dkjd-list li:nth-child(3) {
+    float: right;
+    margin-right: 0;
+}
+.dkjd-item h2{
+    font-size: .28rem;
+    color: rgb(51, 51, 51);
+    width: 1.8rem;
+    text-align: center;
+    border-bottom: .03rem solid #ccc;
+    padding-bottom: .1rem;
+    margin: 0 auto .21rem auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.sq-status{
+    border: .01rem solid #4c8ce5;
+    padding: .07rem .19rem;
+    text-align: center;
+    width: 1.2rem;
+    margin: 0 auto;
+    font-size: .28rem;
+    color: rgb(76, 140, 229);
+    font-weight: bold;
+}
+.dkjd-msg{
+    margin-top: .35rem;
+    text-align: left;
+}
+.dkjd-msg p{
+    font-size: .22rem;
+    color: rgb(102, 102, 102);
+    width: 2.1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.dkjd-msg p:nth-child(2) {
+    margin-top: .13rem;
+}
+
+/* *******************************************推广成果 开始************************************************* */
+.tgcg h2{
+    font-size: .34rem;
+    color: rgb(51, 51, 51);
+    margin-bottom: .32rem;
+}
+.tgcg-list{
+    overflow: hidden;
+    width: 96%;
+    margin: 0 auto;
+    margin-left: 0;
+}
+.tgcg-list li{
+    float: left;
+    margin-left: .48rem;
+    text-align: center;
+}
+.tgcg-list li:nth-child(1) {
+    margin-left: 0;
+}
+.tgcg-num{
+    width: 1.3rem;
+    height: 1.3rem;
+    line-height: 1.3rem;
+    text-align: center;
+    border-radius: 50%;
+    font-size: .36rem;
+    color: rgb(51, 51, 51);
+}
+.num-type1{
+    border: .03rem solid rgb(235, 159, 17);
+    box-shadow: inset 0 0 .3rem #fff6ed;    /* inset  内阴影*/
+}
+.tgcg-text{
+    font-size: .28rem;
+    color: rgb(51, 51, 51);
+    margin-top: .2rem;
+    font-weight: 100;
+}
+.num-type2{
+    border: .03rem solid rgb(255, 122, 39);
+    box-shadow: inset 0 0 .3rem #fff5f2;    /* inset  内阴影*/
+}
+.num-type3{
+    border: .03rem solid rgb(139, 90, 236);
+    box-shadow: inset 0 0 .3rem #f8f4ff;    /* inset  内阴影*/
+}
+.num-type4{
+    border: .03rem solid rgb(86, 125, 252);
+    box-shadow: inset 0 0 .3rem #f1f5ff;    /* inset  内阴影*/
+}
