@@ -1,0 +1,163 @@
+
+/* ********************************************************* 身份验证内容******************************************* */
+.sfyz-con{
+    background: #f5f5f5;
+    padding: .31rem .3rem 1.25rem .3rem;
+    height: 100%;
+    text-align: center;
+}
+.sfyz-con h2{
+    font-size: .28rem;
+    font-weight: 100;
+    color: rgb(128, 128, 128);
+}
+.sfyz-con .clickDesc{
+    font-size: .24rem;
+    color: #0081cc;
+    text-decoration: underline;
+}
+.cl-list{
+    margin-top: .7rem;
+    margin-bottom: .5rem;
+}
+.cl-list li{
+    background: #fff;
+    width: 5.1rem;
+    height: 2.9rem;
+    margin: 0 auto;
+    padding-top: .4rem;
+    margin-top: .4rem;
+}
+.cl-list li:nth-child(1) {
+    margin-top: 0;
+}
+.cl-list li img{
+    width: 3.01rem;
+    height: 1.87rem;
+}
+
+.cl-list li p{
+    font-size: .28rem;
+    color: rgb(76, 140, 229);
+    margin-top: .27rem;
+}
+.sfyz-message{
+    font-size: .24rem;
+    color: rgb(76, 140, 229);
+    text-align: left;
+    width: 5.1rem;
+    margin: 0 auto;
+}
+.edit-ipt-parent{
+    position: relative;
+    width: 5.1rem;
+    margin: .13rem auto .13rem auto;
+    text-align: left;
+    background: #fff;
+    padding-left: .05rem;
+}
+.edit-name{
+    font-size: .24rem;
+    color: rgb(102, 102, 102);
+    border: none;
+    width: 1.3rem;
+    text-align: left;
+}
+.edit-ipt-parent .edit-ipt{
+    width: 3.3rem;
+    height: .55rem;
+    padding-left: .05rem;
+    border: none;
+    margin-left: .15rem;
+    font-size: .22rem;
+    color: rgb(102, 102, 102);
+}
+
+.sfyz-con .edit-ipt-parent input:-webkit-input-placeholder {
+    font-size: .2rem;
+}
+.edit-ipt-parent #idNum{
+    margin-left: .4rem;
+}
+.edit-ipt-parent #ylphone{
+    width: 2.8rem;
+}
+.next-btn{
+    background: url("../images/next-bg_10.png") 0 0 no-repeat;
+    background-size: 100% 100%;
+    width: 3.9rem;
+    line-height: .6rem;
+    text-align: center;
+    font-size: .28rem;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: .5rem;
+}
+/* ************************************************** 蒙版 **************************************************** */
+.mask{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    display: none;
+    background: rgba(0, 0, 0, .7);
+}
+.yhk{
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    width: 70%;
+    margin-left: -35%;
+    background: #fff;
+    border-radius: .15rem;
+    z-index: 100001;
+    padding: .2rem;
+    height: 5.5rem;
+    display: none;
+}
+.alert-title{
+    text-align: center;
+    position: relative;
+    font-size: .36rem;
+    margin-bottom: .3rem;
+}
+.alert-title span:nth-child(2) {
+    position: absolute;
+    top: 0;
+    right: 3%;
+    color: #cb1623;
+}
+.id-list{
+    height: 4.8rem;
+    overflow-y: auto;
+}
+.id-list li:nth-child(1) {
+    border-top: .02rem solid #ccc;
+}
+.id-list li{
+    height: .7rem;
+    border-bottom: .02rem solid #ccc;
+    line-height: .7rem;
+    color: rgb(153, 153, 153);
+    font-size: .28rem;
+    padding-top: 0.12rem;
+    padding-left: 0.5rem;
+}
+.id-list li span{
+    float: left;
+    margin-left: .35rem;
+    height: .6rem;
+}
+.nh{
+    height: .6rem;
+    overflow: hidden;
+    width: 60%;
+    margin: 0 auto;
+}
+.nh img{
+   width: .52rem;
+   height: .52rem;
+   float: left;
+}

@@ -1,0 +1,77 @@
+
+/* ********************************************************* 个人信息******************************************* */
+.sfyz-con{
+    background: #f5f5f5;
+    padding: .31rem .3rem 1.25rem .3rem;
+    height: 100%;
+    text-align: center;
+}
+
+.personInfo h2{
+    font-size: .3rem;
+    font-weight: 100;
+    padding: .27rem 0 .27rem .3rem;
+    color: rgb(51, 51, 51);
+}
+.personInfo-list{
+    width: 7rem;
+    margin: 0 auto;
+}
+.personInfo-list li{
+    width: 6.08rem;
+    border: .02rem dashed #4c8ce5;
+    background: #fff;
+    padding: .3rem .48rem .4rem .3rem;
+}
+.personInfo-list li:nth-child(2){
+    margin-top: .4rem;
+}
+.person-text{
+    display: inline-block;
+    font-size: .28rem;
+    color: rgb(51, 51, 51);
+    position: relative;
+}
+.positionHr{
+    display: inline-block;
+    width: 2.74rem;
+    height: .1rem;
+    background: #ffe46f;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+}
+.text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    width: 2.9rem;
+}
+.upload{
+    margin-top: .96rem;
+    text-align: right;
+}
+.upload input{
+    background: #4c8ce5;
+    width: 1.5rem;
+    height: .4rem;
+    line-height: .4rem;
+    color: #fff;
+    border: none;
+    text-align: center;
+    padding: .1rem .17rem;
+    border-radius: .13rem;
+}
+.next-btn{
+    background: url("../images/next-bg_10.png") 0 0 no-repeat;
+    background-size: 100% 100%;
+    width: 3.9rem;
+    line-height: .6rem;
+    text-align: center;
+    font-size: .28rem;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: .9rem;
+}

@@ -1,0 +1,85 @@
+
+/* ********************************************************* 身份验证内容******************************************* */
+.sfyz-con{
+    background: #f5f5f5;
+    padding: .31rem .3rem 1.25rem .3rem;
+    height: 100%;
+    text-align: center;
+}
+.sfyz-con h2{
+    font-size: .28rem;
+    font-weight: 100;
+    color: rgb(128, 128, 128);
+}
+.cl-list{
+    margin-top: .7rem;
+    margin-bottom: .32rem;
+}
+.cl-list li{
+    background: #fff;
+    width: 5.1rem;
+    height: 2.9rem;
+    margin: 0 auto;
+    padding-top: .4rem;
+    margin-top: .4rem;
+}
+.cl-list li:nth-child(1) {
+    margin-top: 0;
+}
+.cl-list li img{
+    width: 3.01rem;
+    height: 1.87rem;
+}
+
+.cl-list li p{
+    font-size: .28rem;
+    color: rgb(76, 140, 229);
+    margin-top: .27rem;
+}
+.sfyz-message{
+    font-size: .24rem;
+    color: rgb(76, 140, 229);
+    text-align: left;
+    width: 5.1rem;
+    margin: 0 auto;
+}
+.edit-ipt{
+    position: relative;
+    width: 5.1rem;
+    margin: .13rem auto .52rem auto;
+    text-align: left;
+    background: #fff;
+}
+.edit-name{
+    font-size: .24rem;
+    color: rgb(102, 102, 102);
+    border: none;
+    width: 1.3rem;
+    text-align: center;
+}
+.edit-ipt #edit-ipt{
+    width: 2.9rem;
+    height: .55rem;
+    padding-left: .05rem;
+    border: none;
+    margin-left: .2rem;
+    font-size: .24rem;
+    color: rgb(102, 102, 102);
+}
+.edit-ipt img{
+    width: .37rem;
+    height: .37rem;
+    position: absolute;
+    top: 11%;
+    right: 2%;
+}
+.next-btn{
+    background: url("../images/next-bg_10.png") 0 0 no-repeat;
+    background-size: 100% 100%;
+    width: 3.9rem;
+    line-height: .6rem;
+    text-align: center;
+    font-size: .28rem;
+    color: #fff;
+    margin: 0 auto;
+}

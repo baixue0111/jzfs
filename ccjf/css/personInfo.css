@@ -1,0 +1,67 @@
+
+/* ********************************************************* 个人信息******************************************* */
+.sfyz-con{
+    background: #f5f5f5;
+    padding: .31rem .3rem 1.25rem .3rem;
+    height: 100%;
+    text-align: center;
+}
+
+.personInfo h2{
+    font-size: .3rem;
+    font-weight: 100;
+    padding: .27rem 0 .27rem .3rem;
+    color: rgb(51, 51, 51);
+}
+/* .personInfo-list{
+    background: #fff;
+} */
+.personInfo-list li{
+    background: #fff;
+    border-bottom: .02rem solid #f5f5f5;
+    height: .8rem;
+    line-height: .8rem;
+    padding-left: .3rem;
+}
+.personInfo-list li span{
+    font-size: .3rem;
+    color: rgb(51, 51, 51);
+    text-align: left;
+}
+.personInfo-list li input{
+    width: 4.6rem;
+    height: .7rem;
+    line-height: .7rem;
+    padding-left: .05rem;
+    border: none;
+    margin-left: .6rem;
+    font-size: .3rem;
+    color: rgb(77, 77, 77);
+}
+.personInfo-list li #name{
+    margin-left: 1.2rem;
+}
+.personInfo-list li #phone{
+    margin-left: .3rem;
+    width: 3rem;
+}
+.personInfo-list li .yzm{
+    font-size: .24rem;
+    color: rgb(76, 140, 229);
+}
+.personInfo-list li #sfId{
+    margin-left: .9rem;
+    width: 3rem;
+}
+
+.next-btn{
+    background: url("../images/next-bg_10.png") 0 0 no-repeat;
+    background-size: 100% 100%;
+    width: 3.9rem;
+    line-height: .6rem;
+    text-align: center;
+    font-size: .28rem;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: .9rem;
+}

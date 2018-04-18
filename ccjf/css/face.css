@@ -1,0 +1,48 @@
+
+/* ********************************************************* 身份验证内容******************************************* */
+.sfyz-con{
+    background: #f5f5f5;
+    padding: .31rem .3rem 1.25rem .3rem;
+    height: 100%;
+    text-align: center;
+}
+.sfyz-con h2{
+    font-size: .28rem;
+    font-weight: 100;
+    color: rgb(128, 128, 128);
+}
+.cl-list{
+    margin-top: .7rem;
+    margin-bottom: 1.04rem;
+}
+.cl-list li{
+    background: #fff;
+    width: 5.1rem;
+    height: 2.9rem;
+    margin: 0 auto;
+    padding-top: 1.18rem;
+    margin-top: .4rem;
+    padding-bottom: .88rem;
+}
+
+.cl-list li img{
+    width: 2.36rem;
+    height: 2.23rem;
+}
+
+.cl-list li p{
+    font-size: .28rem;
+    color: rgb(76, 140, 229);
+    margin-top: .27rem;
+}
+
+.next-btn{
+    background: url("../images/next-bg_10.png") 0 0 no-repeat;
+    background-size: 100% 100%;
+    width: 3.9rem;
+    line-height: .6rem;
+    text-align: center;
+    font-size: .28rem;
+    color: #fff;
+    margin: 0 auto;
+}
