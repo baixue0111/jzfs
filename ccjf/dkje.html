@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/reset.css"> 
     <link rel="stylesheet" href="css/navBar.css">
-    <link rel="stylesheet" href="css/proveData.css">
+    <link rel="stylesheet" href="css/dkje.css">
     <script src="js/common.js" type="text/javaScript"></script>
     <script src="js/jquery-3.3.1.min.js" type="text/javaScript"></script>
     
@@ -42,33 +42,40 @@
                 <p class="sfyz-hr"></p>
             </li>
             <li>
-                <span class="sfyz-num">3</span>
-                <span class="sfyz-span">完成申请</span>
+                <span class="sfyz-num sfyz-active">3</span>
+                <span class="sfyz-span sfyz-text">完成申请</span>
             </li>
         </ul>
     </section>
     <!-- 导航结束 -->
     <section class="personInfo">
-        <h2 class="person-title">完善职业信息</h2>
-        <ul class="personInfo-list">
+        <h2 class="person-title">填写贷款金额</h2>
+        <div class="dkje">
+            <span>贷款金额</span>
+            <input type="text" id="money" placeholder="最多可借3万">
+        </div>
+        <h2 class="person-title">选择还款方式</h2>
+        <ul class="dkje-list">
             <li>
-                <p class="person-text">
-                    <span class="text">请上传本人户口本照片</span>
-                    <span class="positionHr"></span>
-                </p>
-                <div class="upload">
-                    <input type="file">
-                    <span>点击上传</span>
+                <div class="item-left">
+                    <input type="radio">
+                    <span class="dkje-title">方案一</span>
+                </div>
+                <div class="item-right">
+                    <p>月利息200</p>
+                    <p>12个月x (1000+200)元</p>
+                    <p>还款总计14400元</p>
                 </div>
             </li>
             <li>
-                <p class="person-text">
-                    <span class="text">请上传本人户口本照片</span>
-                    <span class="positionHr"></span>
-                </p>
-                <div class="upload">
-                    <input type="file">
-                    <span>点击上传</span>
+                <div class="item-left">
+                    <input type="radio">
+                    <span class="dkje-title">方案二</span>
+                </div>
+                <div class="item-right">
+                    <p>月利息200</p>
+                    <p>12个月x (1000+200)元</p>
+                    <p>还款总计14400元</p>
                 </div>
             </li>
         </ul>
