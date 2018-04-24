@@ -1,0 +1,55 @@
+body{
+    background: url("../images/bg.jpg") 0 0 no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    min-height: 12.09rem;
+    padding-bottom: 1rem;
+}
+.container{
+    position: relative;
+}
+.zjdw{
+    background: #fff;
+    text-align: center;
+    width: 7.02rem;
+    margin: 0 auto;
+    position: absolute;
+    top: 4.24rem;
+    left: 50%;
+    margin-left: -3.51rem;
+    padding-top: 50px;
+}
+.zjdw h2{
+    font-size: .34rem;
+    color: #e83e38;
+    margin-bottom: 30px;
+}
+.iptGroup-ipt span{
+    font-size: .28rem;
+    color: #404040;
+    font-weight: bold;
+}
+.iptGroup-ipt input{
+    min-width: 5.19rem;
+    height: .7rem;
+    line-height: .7rem;
+    margin-left: .29rem;
+    border: none;
+    background: #f3f3f3;
+    border-radius: .04rem;
+}
+.iptGroup div{
+    margin-top: .5rem;
+}
+.nextBtn{
+    background: #e83e38;
+    font-size: .32rem;
+    color: #fff;
+    text-align: center;
+    height: .8rem;
+    line-height: .8rem;
+    width: 6.2rem;
+    margin: 1.82rem auto 1.7rem auto;
+    border-radius: .1rem;
+}

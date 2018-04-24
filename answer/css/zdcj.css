@@ -1,0 +1,129 @@
+body{
+    background: url("../images/smrd-bg_02.jpg") 0 0 no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    min-height: 12.09rem;
+    padding-bottom: .5rem;
+}
+.smrd-top{
+    background: url(../images/title-bg_03.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    line-height: .8rem;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0 .2rem;
+    width: 6.7rem;
+}
+.smrd-top .smrdTop-left{
+    float: left;
+    font-size: .34rem;
+    color: #fff;
+}
+.smrdTop-center{
+    float: left;
+    margin-left: .35rem;
+}
+.smrdTop-center span{
+    font-size: .26rem;
+    color: #fff;
+}
+.smrd-top .smrdTop-right{
+    float: right;
+    font-size: .26rem;
+    color: #fff;
+}
+
+.smrd-title{
+    overflow: hidden;
+    margin: .3rem auto 0 auto;
+    width: 6.7rem;
+    padding: 0 .2rem;
+}
+.smrd-title span{
+    float: right;
+    font-size: .22rem;
+    color: #26b59e;
+    background: url(../images/hdgz-bg.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    width: 1.28rem;
+    height: .36rem;
+    text-align: center;
+    line-height: .36rem;
+    padding: .06rem;
+}
+
+.tjdf{
+    background: url(../images/tjdf-titlebg_03.png) 0 0 no-repeat;
+    background-size: cover;
+    width: 7.02rem;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    padding-top: .3rem;
+}
+
+.tjdf h2{
+    font-size: .4rem;
+    color: #0c2ca2;
+    margin-bottom: .35rem;
+}
+
+.tjdf p{
+    font-size: .24rem;
+    margin-bottom: .16rem;
+}
+.phb{
+    width: 6.2rem;
+    margin: .4rem auto 0 auto;
+}
+.phb-title{
+    text-align: center;
+    height: .6rem;
+    margin-bottom: .2rem;
+}
+.phb-title span{
+    display: inline-block;
+    font-size: .28rem;
+    color: #e83e38;
+    background: url(../images/003-02.png) 0 -.1rem no-repeat;
+    padding-left: .8rem;
+    line-height: .5rem;
+}
+.dwsd span{
+    background: none;
+    padding-left: 0;
+}
+.phb-table{
+    border: none;
+    width: 6.2rem;
+    margin: 0 auto;
+    text-align: center;
+}
+.phb-table tr{
+    padding: .07rem .2rem;
+}
+.phb-table th{
+    width: 2rem;
+    font-size: .24rem;
+    color: #26b59e;
+    padding: .07rem .2rem;
+}
+.phbTable-top th{
+    color: #e83e38;
+}
+.phb-table tr th:nth-child(1){
+    text-align: left;
+}
+
+.phb-table tr th:nth-child(3){
+    text-align: right;
+}
+.phbTable-top{
+    background: #fae4e3;
+    margin-bottom: .05rem;
+}
+.bgColor{
+    background: #f3f3f3;
+}

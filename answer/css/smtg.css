@@ -1,0 +1,38 @@
+.smrd-top{
+    background: url(../images/title-bg_03.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    line-height: .8rem;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0 .2rem;
+    width: 6.7rem;
+}
+.smrd-top .smrdTop-left{
+    float: left;
+    font-size: .34rem;
+    color: #fff;
+}
+.smrdTop-center{
+    float: left;
+    margin-left: .35rem;
+}
+.smrdTop-center span{
+    font-size: .26rem;
+    color: #fff;
+}
+.smrd-top .smrdTop-right{
+    float: right;
+    font-size: .26rem;
+    color: #fff;
+}
+.ysm{
+    width: 6.21rem;
+    margin: 0 auto;
+    text-align: right;
+    padding: .17rem 0; 
+    font-size: .26rem;
+    color: #e83e38;
+}
+.smrd-con{
+    margin-top: 0;
+}

@@ -1,0 +1,129 @@
+body{
+    background: url("../images/smrd-bg_02.jpg") 0 0 no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    min-height: 12.09rem;
+    padding-bottom: .5rem;
+}
+.smrd-top{
+    background: url(../images/title-bg_03.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    line-height: .8rem;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0 .2rem;
+    width: 6.7rem;
+}
+.smrd-top .smrdTop-left{
+    float: left;
+    font-size: .34rem;
+    color: #fff;
+}
+.smrdTop-center{
+    float: left;
+    margin-left: .1rem;
+}
+.smrdTop-center span{
+    font-size: .26rem;
+    color: #fff;
+}
+.smrd-top .smrdTop-right{
+    float: right;
+    font-size: .26rem;
+    color: #fff;
+}
+
+.smrd-title{
+    overflow: hidden;
+    margin: .3rem auto .1rem auto;
+    width: 6.7rem;
+    padding: 0 .2rem;
+}
+.smrd-title span:nth-child(1) {
+    float: left;
+    font-size: .34rem;
+    color: #e83e38;
+}
+.smrd-title span:nth-child(2) {
+    float: right;
+    font-size: .22rem;
+    color: #26b59e;
+    background: url(../images/hdgz-bg.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    width: 1.28rem;
+    height: .36rem;
+    text-align: center;
+    line-height: .36rem;
+    padding: .06rem;
+}
+.answer-list{
+    width: 6.7rem;
+    padding: 0 .2rem;
+    margin: 0 auto;
+}
+.answerList-item{
+    height: .8rem;
+    line-height: .8rem;
+    overflow: hidden;
+    background: #f3f3f3;
+    border-radius: .1rem;
+    padding-left: .21rem;
+    margin-top: .2rem;
+    position: relative;
+}
+.answer-list li:nth-child(1) {
+    margin-top: 0rem;
+}
+
+
+.mustSelect{
+    width: 6.7rem;
+    padding: 0 .2rem;
+    margin: 0 auto;
+}
+.mustSelect h2{
+    font-size: .26rem;
+    color: #e83e38;
+    font-weight: 100;
+    height: .5rem;
+    line-height: .5rem;
+    padding-left: .2rem;
+    background: #f9e4e3;
+    margin-bottom: .05rem;
+}
+.answerList{
+    width: 6.7rem;
+    margin: 0 auto;
+}
+.answerList li{
+    height: .8rem;
+    line-height: .8rem;
+    padding-left: .2rem;
+    overflow: hidden;
+    font-size: .26rem;
+    color: #26b59e;
+}
+.bgF3{
+    background: #f3f3f3;
+}
+.answerList li input{
+    float: left;
+    margin-top: .23rem;
+}
+.answerList li span{
+    float: left;
+    margin-left: .2rem;
+}
+
+.confirm{
+    background: #e83e38;
+    font-size: .32rem;
+    color: #fff;
+    text-align: center;
+    width: 6.21rem;
+    height: .8rem;
+    line-height: .8rem;
+    margin: .6rem auto .5rem auto;
+    border-radius: .1rem;
+}

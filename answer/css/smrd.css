@@ -1,0 +1,85 @@
+body{
+    background: url("../images/smrd-bg_02.jpg") 0 0 no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    min-height: 12.09rem;
+}
+.smrd-top{
+    background: url("../images/title-bg_03.png") 0 0 no-repeat;
+    background-size: 100% 100%;
+    width: 6.04rem;
+    line-height: .8rem;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0 .49rem;
+}
+.smrd-top .smrdTop-left{
+    float: left;
+    font-size: .34rem;
+    color: #fff;
+}
+.smrd-top .smrdTop-right{
+    float: right;
+    font-size: .26rem;
+    color: #fff;
+}
+.smrd-con{
+    width: 6.2rem;
+    margin: .6rem auto .42rem auto;
+    text-align: center;
+}
+.smrd-con img{
+    width: 3.8rem;
+    height: 3.80rem;
+}
+.smrd-con p{
+    font-size: .34rem;
+    color: #e83e38;
+    margin-top: .3rem;
+}
+.teamList{
+    width: 6.21rem;
+    max-height: 3.6rem;
+    overflow-y: auto;
+    margin: 0 auto;
+    text-align: center;
+    background: #f3f3f3;
+    padding: .29rem 0;
+}
+.teamList li{
+    overflow: hidden;
+    margin-top: .34rem;
+}
+.teamList li:nth-child(1) {
+    margin-top: 0;
+}
+.name{
+    margin-left: .5rem;
+    float: left;
+    font-size: .26rem;
+    color: #4c4c4c;
+}
+.time{
+    margin-left: .8rem;
+    float: left;
+    font-size: .26rem;
+    color: #4c4c4c;
+}
+.status{
+    margin-left: .82rem;
+    float: left;
+    font-size: .26rem;
+    color: #26b59e;
+}
+.confirm{
+    background: #e83e38;
+    font-size: .32rem;
+    color: #fff;
+    text-align: center;
+    width: 6.21rem;
+    height: .8rem;
+    line-height: .8rem;
+    margin: .6rem auto .5rem auto;
+    border-radius: .1rem;
+}
