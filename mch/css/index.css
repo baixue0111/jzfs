@@ -1,0 +1,119 @@
+.mch-con{
+    min-width: 1181px;
+    width: 1181px; 
+    margin: 0 auto;
+    background: #fff;
+}
+.mchCon-top{
+    height: 41px;
+    line-height: 41px;
+    position: relative;
+    box-shadow: 0px 2px 6px #ccc;
+}
+.imgNews{
+    margin-top: 15px;
+    padding: 0 21px;
+}
+.mchConTop-left{
+    position: absolute;
+    top: 8px;
+    left: 21px;
+    background: #3084e4;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 12px;
+    padding: 0 10px;
+}
+.mchConTop-left span{
+    background: url("../images/dw_index_03.png") 0 3px no-repeat;
+    padding-left: 22px;
+    font-size: 14px;
+    color: #DBECFF;
+    font-family: "MicrosoftYaHei";
+}
+.mchConTop-right{
+    position: absolute;
+    top: 8px;
+    right: 21px;
+}
+.mchConTop-right p{
+    background: url("../images/date_03.png") 0 3px no-repeat;
+    padding-left: 25px;
+    line-height: 22px;
+    font-size: 14px;
+    color: #737880;
+}
+.mch-color{
+    color: #3084e4;
+}
+/* ******************************************** 图片新闻轮播******************************************* */
+.imgNews-container{
+    position: relative;
+    width: 710px;
+    height: 420px;
+    overflow: hidden;
+    display: inline-block;    
+}
+
+.imgNews-swiper li{
+    float: left;
+}
+
+.imgNews-swiper-btn li{
+    width: 42px;
+    height: 42px;
+    text-align: center;
+    line-height: 39px;
+    background: rgba(0, 0, 0, .5);
+    border-radius: 50px;
+    cursor: pointer;
+}
+.imgNews-swiper-btn li img{
+    width: 14px;
+    height: 26px;
+}
+.imgNews-swiper-prev{
+    position: absolute;
+    top: 50%;
+    margin-top: -21px;
+    left: 11px;
+    z-index: 10;
+}
+.imgNews-swiper-next{
+    position: absolute;
+    top: 50%;
+    margin-top: -21px;
+    right: 11px;
+    z-index: 10;
+}
+.imgNewsTitle{
+    width: 552px;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    background: rgba(0, 0, 0, .5);
+    padding: 10px 0 10px 22px;
+}
+.imgNewsTitle p:nth-child(1) {
+    font-size: 16px;
+    color: #fff;
+}
+.imgNewsTitle p:nth-child(2) {
+    font-size: 14px;
+    color: #ccc;
+    margin-top: 8px;
+}
+.imgNews-container .pageSwiper{
+    position: absolute;
+    bottom: 15px;
+    left: 573px;
+    width: 136px;
+}
+.pageSwiper span{
+    background: #D1E4FB;
+    width: 11px;
+    height: 11px;
+}
+.pageSwiper .swiper-pagination-bullet-active{
+    background: #3084e4;
+}
