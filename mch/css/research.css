@@ -1,0 +1,199 @@
+.research-results{
+	width: 1181px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+.research-results .research-img{
+	width: 1160px;
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+	padding-left: 10.5px;
+	padding-right: 10.5px;
+	vertical-align: middle;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 32px;
+}
+.research-results .research-img img{
+	width: 1160px;
+	height: 80px;
+	vertical-align: middle;
+}
+.researchList{
+	width: 1100px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+.researchList .researchListTitle{
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.researchList .researchListTitle h4{
+	float: left;
+	font-size: 18px;
+	color: #404040;
+	height: 19px;
+	line-height: 19px;
+	padding-left: 10px;
+	border-left: solid 3px #3084E4;
+}
+.researchList .researchListTitle h4 span{
+	font-size: 20px;
+	color: #BFDDFF;
+	margin-left: 8px;
+	font-weight: 500 !important;
+	font-family: "arial narrow";
+}
+.researchList .researchListTitle h5{
+	float: right;
+	height: 22px;
+	text-align: center;
+	line-height: 22px;
+}
+.researchList .researchListTitle h5 a{
+	font-size: 15px;
+	color: #3084e4;
+	display: inline-block;
+	height: 22px;
+	line-height: 22px;
+}
+.researchList .researchListTitle h5 a span{
+	display: inline-block;
+	width: 16px;
+	height: 15px;
+	text-align: center;
+	line-height: 14px;
+	border: solid 1px #3084e4;
+	border-radius: 50%;
+	margin-left: 5px;
+}
+.researchListCnt{
+	width: 100%;
+	margin: 0 auto;
+}
+.researchListCnt ul{
+	width: 100%;
+	height: 45px;
+	overflow: hidden;
+	border-radius: 5px;
+	background-color: #F2F8FF;
+	margin-top: 18px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.researchListCnt ul li{
+	float: left;
+	height: 45px;
+}
+.researchListCnt ul li:nth-child(1){
+	width: 58px;
+	position: relative;
+}
+.researchListCnt ul li:nth-child(1) span{
+	display: inline-block;
+}
+.researchListCnt ul li:nth-child(1) span:nth-child(1){
+	width: 15px;
+	height: 15px;
+	border: solid 1px #3084e4;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -7.5px;
+	margin-top: -7.5px;
+}
+.researchListCnt ul li:nth-child(1) span:nth-child(2){
+	width: 6px;
+	height: 6px;
+	background-color: #3084e4;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -2.6px;
+	margin-top: -2.6px;
+}
+.researchListCnt ul li:nth-child(2){
+	width: 903px;
+	padding-right: 35px;
+}
+.researchListCnt ul li:nth-child(2)>div:nth-child(1){
+	overflow: hidden;
+	height: 24px;
+}
+.researchList .researchListCnt ul li:nth-child(2)>div:nth-child(1) h5{
+	float: left;
+	height: 24px;
+	line-height: 24px;
+}
+.researchListCnt ul li:nth-child(2)>div:nth-child(1) h5 a{
+	font-size: 16px;
+	color: #595959;
+	display: inline-block;
+	width: 615px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.researchListCnt ul li:nth-child(2)>div:nth-child(1)>div{
+	float: right;
+	overflow: hidden;
+	height: 24px;
+}
+.researchList .researchListCnt ul li:nth-child(2)>div:nth-child(1)>div>div{
+	float: left;
+	font-size: 14px;
+	color: #5ca0ee;
+	
+}
+.researchListCnt ul li:nth-child(2)>div:nth-child(1)>div>div span{
+	color: #999999;
+}
+.researchListCnt ul li:nth-child(2)>div:nth-child(1)>div>div:nth-child(1){
+	margin-right: 26px;
+}
+.researchListCnt ul li:nth-child(2)>div:nth-child(2) a{
+	display: inline-block;
+	width: 903px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	font-size: 14px;
+	color: #999999;
+}
+.researchListCnt ul li:nth-child(3){
+	width: 100px;
+	text-align: center;
+	border-left: solid 1px #3084e4;
+	color: #3084e4;
+}
+.researchListCnt ul li:nth-child(3) h3{
+	font-size: 28px;
+	font-weight: 500;
+}
+.researchListCnt ul li:nth-child(3) div{
+	font-size: 12px;
+}
+
+.researchListCnt ul:nth-child(1) li:nth-child(2)>div:nth-child(1) h5 a{
+	color: #3084e4;
+}
+.researchListCnt ul li:nth-child(1) span:nth-child(3){
+	width: 40px;
+	height: 15px;
+	line-height: 15px;
+	background-color: #3084e4;
+	color: #fff;
+	position: absolute;
+	top: -15px;
+	left: 50%;
+	margin-left: -20px;
+	font-size: 12px;
+	text-align: center;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+}

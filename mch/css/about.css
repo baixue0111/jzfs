@@ -1,0 +1,206 @@
+.mch-con{
+    min-width: 1181px;
+    width: 1181px; 
+    margin: 0 auto;
+    background: #fff;
+    padding-bottom: 40px;
+}
+.mchCon-top{
+    height: 41px;
+    line-height: 41px;
+    position: relative;
+    box-shadow: 0px 2px 6px #ccc;
+}
+.imgNews{
+    margin-top: 15px;
+    padding: 0 21px;
+}
+.mchConTop-left{
+    position: absolute;
+    top: 8px;
+    left: 21px;
+    background: #3084e4;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 12px;
+    padding: 0 10px;
+}
+.mchConTop-left span{
+    background: url("../images/dw_index_03.png") 0 3px no-repeat;
+    padding-left: 22px;
+    font-size: 14px;
+    color: #DBECFF;
+    font-family: "MicrosoftYaHei";
+}
+.mchConTop-right{
+    position: absolute;
+    top: 8px;
+    right: 21px;
+}
+.mchConTop-right p{
+    background: url("../images/date_03.png") 0 3px no-repeat;
+    padding-left: 25px;
+    line-height: 22px;
+    font-size: 14px;
+    color: #737880;
+}
+.mch-color{
+    color: #3084e4;
+}
+/* ******************************************** 关于我们******************************************* */
+.aboutLogo{
+    width: 1161px;
+    height: 81px;
+    margin: 10px auto 30px auto;
+}
+.yjyjj{
+    width: 1099px;
+    margin: 0 auto;
+    background: #F2F8FF;
+    border-radius: 5px;
+    padding: 18px 20px 39px 20px;
+}
+.yjyjjTitle{
+    height: 19px;
+    line-height: 19px;
+    margin-bottom: 26px;
+}
+.yjyjjTitle span:nth-child(1) {
+    border-left: 4px solid #3084E4;
+    padding-left: 10px;
+    color: #404040;
+    font-size: 18px;
+    border-radius: 2px;
+}
+.yjyjjTitle span:nth-child(2) {
+    color: #BFDDFF;
+    font-size: 20px;
+    margin-left: 7px;
+}
+.yjyCon{
+    overflow: hidden;
+}
+.yjyImg{
+    width: 451px;
+    height: 251px;
+    position: relative;
+    display: inline-block;
+}
+.yjyImg img{
+    width: 450px;
+    height: 250px;
+}
+.positionText{
+    background: rgba(48, 132, 228, .5);
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+    height: 41px;
+    line-height: 41px;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    letter-spacing: 2px;
+}
+.yjyText{
+    width: 620px;
+    float: right;
+    text-align: center;
+}
+.yjyText h2{
+    font-size: 20px;
+    color: #3084E4;
+    margin-top: 16px;
+}
+.yjyText h3{
+    font-size: 12px;
+    color: #3084E4;
+    margin-top: 8px;
+}
+.yjyText p{
+    margin-top: 28px;
+    font-size: 16px;
+    color: #595959;
+    text-indent: 36px;
+    text-align: left;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+.about-detail{
+    text-align: right;
+}
+.about-detail a{
+    font-size: 14px;
+    color: #3084E4;
+    background: url(../images/ckxq_03.png) right 2px no-repeat;
+    padding-right: 24px;
+    text-decoration: underline;
+}
+.zzjg{
+    width: 1139px;
+    margin: 0 auto;
+    padding: 30px 0 70px 0;
+    text-align: center;
+}
+.zzjgTop h2{
+    font-size: 18px;
+    color: #404040;
+}
+.zzjgHr{
+    background: #3084E4;
+    width: 19px;
+    height: 4px;
+    margin: 4px auto 9px auto;
+    border-radius: 2px;
+}
+.zzjgTop h3{
+    font-size: 20px;
+    color: #BFDDFF;
+}
+.zzjgList{
+    overflow: hidden;
+    width: 818px;
+    margin: 19px auto 0 auto;
+}
+.zzjgList li{
+    float: left;
+    margin-left: 130px;
+}
+.zzjgList li:nth-child(1) {
+    margin-left: 0;
+}
+.zzjgList li img{
+    width: 101px;
+    height: 101px;
+}
+.zzjgList li h2{
+    font-size: 16px;
+    color: #333;
+    margin-top: 16px;
+}
+.lxfs{
+    width: 661px;
+    height: 281px;
+    position: relative;
+    display: inline-block;
+}
+.lxfs img{
+    width: 661px;
+    height: 281px;
+}
+.lxfsRight{
+    float: right;
+    width: 410px;
+    padding-top: 25px;
+}
+.lxfsRight h2{
+    font-size: 18px;
+    color: #3084E4;
+    margin-bottom: 30px;
+}
+.addressList li{
+    font-size: 16px;
+    color: #404040;
+    line-height: 32px;
+}

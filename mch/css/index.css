@@ -3,6 +3,7 @@
     width: 1181px; 
     margin: 0 auto;
     background: #fff;
+    padding-bottom: 40px;
 }
 .mchCon-top{
     height: 41px;
@@ -47,16 +48,12 @@
     color: #3084e4;
 }
 /* ******************************************** 图片新闻轮播******************************************* */
-.imgNews-container{
+.imgNews-left{
     position: relative;
     width: 710px;
     height: 420px;
     overflow: hidden;
     display: inline-block;    
-}
-
-.imgNews-swiper li{
-    float: left;
 }
 
 .imgNews-swiper-btn li{
@@ -116,4 +113,511 @@
 }
 .pageSwiper .swiper-pagination-bullet-active{
     background: #3084e4;
+}
+/* *******************************工作动态************************************** */
+.imgNews-right{
+    float: right;
+    background: #F2F8FF;
+    width: 409px;
+    height: 421px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.imgNewsRight-top{
+    overflow: hidden;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 10px 0 7px;
+}
+.imgNewsTop-title{
+    float: left;
+    background: url("../images/fj_03.png") 0 14px no-repeat;
+    padding-left: 37px;
+    font-size: 20px;
+    color: #363A40;
+}
+.imgNewsTop-title span{
+    color: #B6CDF2;
+    margin-left: 4px;
+}
+.imgNewsRight-more a{
+    float: right;
+    font-size: 22px;
+    color: #3084E4;
+}
+
+/* ****************************************工作动态上下轮播***************************************/
+.newSwiper{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    z-index: 10;
+    width: 406px;
+    height: 121px;
+    background: #fff;
+    margin-left: -203px;
+    box-shadow: 0px 0px 12px 2px #e9eef5;
+}
+.swiper-container2{
+    width: 406px;
+    height: 121px;
+    overflow: hidden;
+}
+.swiper-slide{
+    /* overflow: hidden; */
+    position: relative;
+}
+.newSwiperSlide-left{
+    float: left;
+    padding-left: 19px;
+    padding-top: 4px;
+}
+.newSwiperSlide-left span{
+    display: block;
+}
+.newSwiperDate{
+    font-size: 49px;
+    color: #3084E4;
+}
+.newSwiperYear{
+    font-size: 16px;
+    color: #3084E4;
+}
+.newSwiperSlide-right{
+    float: right;
+    border-left: 2px solid #B7D3F3;
+    padding-left: 11px;
+    width: 293px;
+    height: 80px;
+    margin: 21px 6px 20px 0;
+}
+.newSwiperSlide-right h2{
+    font-size: 16px;
+    color: #404040;
+    width: 265px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.newSwiperSlide-right p{
+    width: 265px;
+    display: -webkit-box;
+    -moz-box-orient: vertical;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    white-space: pre-wrap;
+    margin-top: 8px;
+}
+.trigon{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-bottom: 36px solid #3084e4;
+    border-left: 36px solid transparent;
+    color: #fff;
+    text-align: center;
+    width: 0;
+    height: 0;
+}
+.trigon span{
+    position: absolute;
+    bottom: -33px;
+    right: 3px;
+}
+
+/* ************************************ 工作动态  ---- 新闻列表******************************** */
+.newList{
+    padding: 0 10px 0 7px;
+    margin-top: 134px;
+}
+
+.newList li{
+    overflow: hidden;
+    background: url("../images/indexyd.png") 0 17px no-repeat;
+    padding-left: 13px;
+    line-height: 38px;
+    cursor: pointer;
+}
+
+.newText{
+    float: left;
+    width: 280px;
+    font-size: 14px;
+    color: #595959;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.newDate{
+    float: right;
+    font-size: 14px;
+    color: #b3b3b3;
+}
+.newList li:hover{
+    background: url("../images/yd-active_06.png") 0 17px no-repeat;
+}
+
+.newList li:hover span{
+    font-size: 16px;
+    color: #3084E4;
+}
+
+/* **************************************** 横向滚动新闻************************************* */
+.hxgdNew{
+    position: relative;
+    background: #3084E4;
+    height: 37px;
+    line-height: 37px;
+    width: 1139px;
+    margin: 24px auto;
+    border-radius: 18px;
+}
+.hxgdNew:after{
+    height: 0;
+    content: "";
+    display: block;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+.hxgdBgImg{
+    width: 51px;
+    height: 51px;
+    text-align: center;
+    line-height: 51px;
+    background: #fff;
+    border-radius: 50px;
+    position: absolute;
+    left: 20px;
+    top: -7px;
+    box-shadow: 0 0 8px 2px #e2e8f2;
+    z-index: 99;
+}
+.hxgdBgImg img{
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -14px;    
+    margin-left: -12px;
+}
+#scroll-div{
+    width: 1079px;
+    height: 37px;
+    overflow: hidden;
+}
+#scrollDiv{
+    width:1000px;
+    height: 37px;
+    margin-left: 94px;
+    overflow: hidden;
+    position: relative;
+}
+#hxgdCon {
+    width: 9999px;
+    height: 37px;
+    overflow: hidden;
+    position:absolute;
+}
+#scrollEnd{
+    margin-left: 20px;
+}
+#hxgdCon:after{
+    height: 0;
+    content: "";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+}
+#scrollEnd:after{
+    height: 0;
+    content: "";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+}
+#hxgdCon li, #scrollEnd li{
+    position: relative;
+    height: 37px;
+    line-height: 37px;
+    float: left;
+    margin-left: 20px;
+}
+#hxgdCon li a:hover{
+    border-bottom: 1px solid #fff;
+}
+#scrollEnd li a:hover{
+    border-bottom: 1px solid #fff;
+}
+
+#hxgdCon li:nth-child(1) {
+    margin-left: 0;
+}
+#scrollEnd li:nth-child(1) {
+    margin-left: 0;
+}
+
+.hxgdImg{
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: #C1DBF9;
+    border-radius: 50px;
+    position: absolute;
+    top: 50%;
+    margin-top: -3px;
+}
+.hxgdText{
+    font-size: 14px;
+    color: #fff;
+    margin-left: 11px;
+
+}
+.hxgdData{
+    font-size: 12px;
+    color: #B8D4F5;
+    margin-left: 13px;
+}
+.hxgdMore{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.hxgdMore a{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    float: right;
+    margin-right: 20px;
+}
+/* ******************************* 专家观点********************/
+.zjgdAndktxm{
+    width: 1139px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 21px;
+}
+.zjgd{
+    float: left;
+    width: 669px;
+    padding: 0 11px 24px 11px;
+}
+.zjgd-title{
+    background: url(../images/zjgd_03.png) 0 14px no-repeat;
+    padding-left: 29px;
+    font-size: 18px;
+    color: #363A40;
+}
+.zjgdTop{
+    padding: 0;
+    margin-bottom: 13px;
+    border-bottom: 3px solid #fff;
+}
+.zjgdList{
+    overflow: hidden;
+}
+.zjgdList1{
+    float: left;
+    width: 300px;
+}
+.zjgdList2{
+    float: right;
+}
+.zjgdItemLeft-top{
+    background: url("../images/indexyd.png") 0 13px no-repeat;
+    padding-left: 14px;
+    font-size: 14px;
+    color: #4D4D4D;
+    width: 286px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 26px;  
+}
+.zjgdList1 li{
+    margin-top: 13px;
+}
+
+.zjgdList1 li:nth-child(1) {
+    margin-top: 0;
+}
+
+.zjgdList1 li:hover p{
+    background: url("../images/yd-active_06.png") 0 13px no-repeat;
+    color: #3084e4;
+}
+
+/* 专家观点 -- 视屏区 */
+.videoList{
+    overflow: hidden;
+    padding: 14px 0;
+    margin-top: 4px;
+}
+.videoList li{
+    float: left;
+    /* width: 217px; */
+    box-shadow: 0 0 10px -1px #ccc;
+    margin-left: 12px;
+}
+.videoList li:nth-child(1) {
+    margin-left: 0;
+}
+.videoImg{
+    width: 151px;
+    height: 91px;
+    float: left;
+}
+.videoList-right{
+    float: left;
+    margin-left: 17px;
+    margin-top: 13px;
+    margin-right: 15px;
+}
+.videoList-right a{
+    display: inline-block;
+}
+.videoList-right img{
+    width: 30px;
+    height: 31px;
+}
+.videoList-right p{
+    font-size: 12px;
+    color: #333;
+    margin-top: 14px;
+}
+/* ******************************** 课题项目*********************************** */
+.ktxm{
+    float: right;
+    width: 409px;
+    background: #F2F8FF;
+    padding: 0 11px 14px 11px;
+}
+
+.ktxmItem{
+    overflow: hidden;
+}
+.ktxmItem-left{
+    float: left;
+    width: 409px;
+}
+.ktxmTop{
+    padding: 0;
+    border-bottom: 3px solid #fff;
+    margin-bottom: 13px;
+}
+.ktxmItemLeft-top{
+    background: url("../images/indexyd.png") 0 13px no-repeat;
+    padding-left: 14px;
+    font-size: 14px;
+    color: #595959;
+    width: 396px;
+    overflow: hidden;
+    line-height: 31px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.ktxmList li{
+    margin-top: 13px;
+}
+
+.ktxmList li:nth-child(1) {
+    margin-top: 0;
+}
+.ktxmItemTop-active{
+    background: url("../images/yd-active_06.png") 0 8px no-repeat;
+    color: #3084e4;
+}
+
+.ktxmItem-right{
+    float: right;
+    text-align: center;
+    background: #D9EAFC;
+    border-radius: 10px;
+    padding: 10px 12px;
+}
+
+.ktxmList li:hover p{
+    background: url("../images/yd-active_06.png") 0 13px no-repeat;
+    color: #3084e4;
+}
+/* **************************** 研究成果 和 专家介绍*************************** */
+.yjcg-title{
+    background: url("../images/yjcg_03.png") 0 3px no-repeat;
+}
+
+.yjcg-left{
+    display: inline-block;
+    text-align: center;
+    margin-left: 42px;
+}
+.yjcg-left:nth-child(1) {
+    margin-left: 0;
+}
+.yjcgTop{
+    overflow: hidden;
+    padding: 10px 10px 10px 74px;
+}
+.xslwImg{
+    float: left;
+    width: 51px;
+    height: 51px;
+    line-height: 51px;
+    text-align: center;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 0 10px 2px #ccc;
+}
+.xslwImg img{
+    width: 22px;
+    height: 28px;
+}
+.xslwImg-desc{
+    float: left;
+    text-align: left;
+    margin-left: 20px;
+}
+.xslwImg-desc p:nth-child(1) {
+    font-size: 16px;
+    color: #404040;
+    margin-bottom: 3px;
+}
+.xslwImg-desc p:nth-child(2) {
+    font-size: 12px;
+    color: #666;
+}
+.xslwSwiper{
+    width: 306px;
+    height: 130px;
+    position: relative;
+    overflow: hidden;
+}
+
+.xslwSwiper-list li a{
+    background: url(../images/indexyd.png) 0 8px no-repeat;
+    padding-left: 14px;
+    font-size: 14px;
+    color: #595959;
+}
+.xslwSwiper-list li{
+    width: 302px;
+    overflow: hidden;
+    line-height: 31px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.xslwSwiper-list li a:hover{
+    background: url("../images/yd-active_06.png") 0 8px no-repeat;
+    color: #3084e4;
+}
+.xslwSwiper .xslwSwiperPagev{
+    position: absolute;
+    width: 100px;
+    bottom: 31px;
+    left: 0;
 }

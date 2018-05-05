@@ -1,0 +1,218 @@
+.mch-con{
+    min-width: 1181px;
+    width: 1181px; 
+    margin: 0 auto;
+    background: #fff;
+    padding-bottom: 40px;
+}
+.mchCon-top{
+    height: 41px;
+    line-height: 41px;
+    position: relative;
+    box-shadow: 0px 2px 6px #ccc;
+}
+.imgNews{
+    margin-top: 15px;
+    padding: 0 21px;
+}
+.mchConTop-left{
+    position: absolute;
+    top: 8px;
+    left: 21px;
+    background: #3084e4;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 12px;
+    padding: 0 10px;
+}
+.mchConTop-left span{
+    background: url("../images/dw_index_03.png") 0 3px no-repeat;
+    padding-left: 22px;
+    font-size: 14px;
+    color: #DBECFF;
+    font-family: "MicrosoftYaHei";
+}
+.mchConTop-right{
+    position: absolute;
+    top: 8px;
+    right: 21px;
+}
+.mchConTop-right p{
+    background: url("../images/date_03.png") 0 3px no-repeat;
+    padding-left: 25px;
+    line-height: 22px;
+    font-size: 14px;
+    color: #737880;
+}
+.mch-color{
+    color: #3084e4;
+}
+/* ******************************************** 学术论文******************************************* */
+.xslw{
+    overflow: hidden;
+    padding: 31px 20px 78px 21px;
+}
+.xslwLeft{
+    width: 210px;
+    float: left;
+}
+.xslwLeft h2{
+    font-size: 24px;
+    color: #3084E4;
+    margin-bottom: 21px;
+}
+.xslwTab li:nth-child(1) {
+    margin-top: 0;
+}
+.xslwTab li{
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    padding-left: 19px;
+    background: #F2F8FF;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.xslwTab li a{
+    color: #595959;
+}
+.xslwTab .xslwactive{
+    background: #3084E4;
+}
+.xslwTab  .xslwactive a{
+    color: #fff;
+}
+.xslwTab li:hover{
+    background: #3084E4;
+}
+.xslwTab li:hover a{
+    color: #fff;
+}
+
+/* ***************** 学术论文- - 右侧*************** */
+.xslwRight{
+    float: right;
+    width: 899px;
+    margin-left: 30px;
+}
+.xslwRighTop span:nth-child(1) {
+    display: inline-block;
+    border-left: 3px solid #3084E4;
+    height: 18px;
+    line-height: 18px;
+    padding-left: 10px;
+    font-size: 18px;
+    color: #404040;
+}
+.xslwRighTop span:nth-child(2) {
+    display: inline-block;
+    font-size: 20px;
+    color: #BFDDFF;
+    margin-left: 7px;
+}
+
+.xslwList{
+    margin-top: 21px;
+}
+.xslwList li{
+    margin-top: 18px;
+    overflow: hidden;
+    background: #F2F8FF;
+    height: 47px;
+    padding: 17px 18px 17px 23px;
+    border-radius: 5px;
+    position: relative;
+}
+.xslwList-left{
+    float: left;
+    width: 728px;
+    border-right: 1px solid #3084E4;
+    padding-right: 33px;
+    background: url(../images/yd_03.png) 0 14px no-repeat;
+    padding-left: 30px;
+}
+
+.xslwList-top{
+    overflow: hidden;
+}
+.xslwList-top h2{
+    float: left;
+    font-size: 16px;
+    color: #595959;
+}
+.xslwList-top .xslwList-active{
+    color: #3084E4;
+}
+.xslwAuthor{
+    float: right;
+    font-size: 14px;
+    color: #5CA0EE;
+}
+.marginLeft{
+    margin-left: 32px;
+}
+.people{
+    color: #999;
+}
+.xslwList-bottom{
+    font-size: 14px;
+    color: #999;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.positionNew{
+    position: absolute;
+    top: 0;
+    left: 10px;
+    width: 40px;
+    height: 16px;
+    line-height: 16px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background: #3084E4;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+}
+.xslwList-right{
+    float: right;
+    text-align: center;
+}
+.xslwList-right p:nth-child(1) {
+    font-size: 28px;
+    color: #3084E4;
+}
+.xslwList-right p:nth-child(2) {
+    font-size: 12px;
+    color: #3084E4;
+}
+/********* 分页 *******/
+.pageParent{
+    overflow: hidden;
+    margin-top: 40px;
+}
+.page{
+    float: right;
+}
+.page li{
+    float: left;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #E3EFFC;
+    border-radius: 2px;
+    font-size: 16px;
+    color: #999;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.page li:nth-child(1) {
+    margin-left: 10px;
+}
+.page .page-active{
+    background: #3084E4;
+    color: #fff;
+}

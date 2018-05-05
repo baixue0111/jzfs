@@ -1,0 +1,202 @@
+.mch-con{
+    min-width: 1181px;
+    width: 1181px; 
+    margin: 0 auto;
+    background: #fff;
+    padding-bottom: 40px;
+}
+.mchCon-top{
+    height: 41px;
+    line-height: 41px;
+    position: relative;
+    box-shadow: 0px 2px 6px #ccc;
+}
+.imgNews{
+    margin-top: 15px;
+    padding: 0 21px;
+}
+.mchConTop-left{
+    position: absolute;
+    top: 8px;
+    left: 21px;
+    background: #3084e4;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 12px;
+    padding: 0 10px;
+}
+.mchConTop-left span{
+    background: url("../images/dw_index_03.png") 0 3px no-repeat;
+    padding-left: 22px;
+    font-size: 14px;
+    color: #DBECFF;
+    font-family: "MicrosoftYaHei";
+}
+.mchConTop-right{
+    position: absolute;
+    top: 8px;
+    right: 21px;
+}
+.mchConTop-right p{
+    background: url("../images/date_03.png") 0 3px no-repeat;
+    padding-left: 25px;
+    line-height: 22px;
+    font-size: 14px;
+    color: #737880;
+}
+.mch-color{
+    color: #3084e4;
+}
+/* ******************************************** 专家介绍******************************************* */
+.aboutLogo{
+    width: 1161px;
+    height: 81px;
+    margin: 10px auto 30px auto;
+}
+.zjjs{
+    width: 1141px;
+    /* padding: 0 40px; */
+    margin: 0 auto;
+}
+.ynzj-top{
+    overflow: hidden;
+    margin-bottom: 35px;
+}
+.ynzjTop-left{
+    float: left;
+}
+.ynzjTop-left span:nth-child(1) {
+    border-left: 3px solid #3084E4;
+    padding-left: 11px;
+    font-size: 18px;
+    color: #404040;
+}
+.ynzjTop-left span:nth-child(2) {
+    font-size: 20px;
+    color: #BFDDFF;
+}
+.ynzjTop-right{
+    float: right;
+    display: inline-block;
+    background: url("../images/more_03.png") right 2px no-repeat;
+    padding-right: 24px;
+    font-size: 15px;
+}
+.ynzjTop-right a{
+    color: #3084E4;
+}
+.ynzj-bottom{
+    text-align: center;
+}
+.ynzjBottom-left{
+    display: inline-block;
+    overflow: hidden;
+    margin-left: 100px;
+}
+.ynzjBottom-left:nth-child(1) {
+    margin-left: 0;
+}
+.ynzjImg{
+    float: left;
+    height: 233px;
+    position: relative;
+}
+.ynzjImg img{
+    width: 160px;
+    height: 220px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 4;
+}
+.ynzjname{
+    width: 253px;
+    height: 60px;
+    line-height: 60px;
+    background: #EDF5FF;
+    font-size: 18px;
+    color: #3084E4;
+    text-align: right;
+    padding-right: 11px;
+    position: absolute;
+    bottom: 4px;
+    left: 25px;
+}
+.ynzjText{
+    float: right;
+    margin-left: 182px;
+    width: 252px;
+}
+.ynzjText h2{
+    font-size: 16px;
+    color: #3084E4;
+    margin-bottom: 30px;
+    text-align: left;
+}
+.ynzjText p{
+    font-size: 14px;
+    color: #808080;
+    width: 252px;
+    height: 65px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-align: left;
+}
+/* ******************************* 研究人员*********************** */
+.yjry{
+    background: #EDF5FF;
+    padding: 21px 21px 28px 21px;
+    margin-top: 60px;
+    border-radius: 5px;
+}
+.yjryList{
+    overflow: hidden;
+    padding: 0 60px;
+}
+.yjryList li{
+    float: left;
+    margin-left: 30px;
+    text-align: center;
+}
+.yjryList li:nth-child(1) {
+    margin-left: 0px;
+}
+.yjryList li img{
+    width: 160px;
+    height: 220px;
+}
+.yjryList li h2{
+    font-size: 18px;
+    color: #3084E4;
+    margin: 20px 0 10px 0;
+}
+.yjryList li p{
+    font-size: 14px;
+    color: #595959;
+    width: 221px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.zjwy{
+    background: #fff;
+}
+.zjwyList{
+    overflow: hidden;
+}
+.zjwyList li{
+    float: left;
+    margin-left: 17px;
+    font-size: 16px;
+    color: #3084E4;
+    padding: 26px 50px;
+    background: #EDF5FF;
+    border: 1px solid #DAE5F2;
+    border-radius: 5px
+}
+.zjwyList li:nth-child(1) {
+    margin-left: 0;
+}

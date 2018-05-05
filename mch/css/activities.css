@@ -1,0 +1,109 @@
+.activeties{
+	width: 1080px;
+	height: 270px;
+	margin: 0 auto;
+	border-radius: 5px;
+	background-color: #F2F8FF;
+	margin-top: 27px;
+	position: relative;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.activeties .activeties-lb{
+	width: 430px;
+	height: 250px;
+	text-align: center;
+	line-height: 250px;
+	vertical-align: middle;
+	overflow: hidden;
+	position: absolute;
+	top: -15px;
+}
+.activetiesList:nth-child(even) .activeties .activeties-lb{
+	left: 20px;
+}
+.activetiesList:nth-child(odd) .activeties .activeties-lb{
+	right: 20px;
+}
+.activeties .activeties-lb img{
+	width: 430px;
+	height: 250px;
+	vertical-align: middle;
+	border-radius: 5px;
+}
+.activeties .activeties-text{
+	width: 590px;
+	padding-right: 20px;
+	padding-top: 35px;
+	position: relative;
+}
+.activetiesList:nth-child(odd) .activeties .activeties-text{
+	float: left;
+}
+.activetiesList:nth-child(even) .activeties .activeties-text{
+	float: right;
+}
+.activeties .activeties-text>span{
+	display: inline-block;
+	width: 40px;
+	height: 20px;
+	line-height: 20px;
+	background-color: #3084e4;
+	color: #fff;
+	position: absolute;
+	top: 0;
+	font-size: 12px;
+	text-align: center;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+.activetiesList:nth-child(odd) .activeties .activeties-text>span{
+	left: 0px;
+}
+.activetiesList:nth-child(even) .activeties .activeties-text>span{
+	right: 0px;
+}
+.activeties .activeties-text>h4{
+	height: 50px;
+	overflow: hidden;
+	line-height: 20px;
+	margin-bottom: 28px;
+}
+.activeties .activeties-text>h4 a{
+	font-size: 16px;
+	color: #3084e4;
+}
+.activeties .activeties-text>div:nth-child(2){
+	font-size: 14px;
+	color: #999999;
+	height: 67px;
+	line-height: 23px;
+	overflow: hidden;
+	margin-bottom: 16px;
+}
+.activeties .activeties-text>div:nth-child(3){
+	font-size: 14px;
+	color: #999999;
+	line-height: 23px;
+	overflow: hidden;
+	margin-bottom: 16px;
+}
+.activeties .activeties-text>div:nth-child(4){
+	text-align: right;
+}
+.activeties .activeties-text>div:nth-child(4) a{
+	text-decoration: underline;
+	font-size: 14px;
+	color: #595959;
+}
+.activeties .activeties-text>div:nth-child(4) span{
+	display: inline-block;
+	width: 16px;
+	height: 15px;
+	text-align: center;
+	line-height: 14px;
+	border: solid 1px #595959;
+	border-radius: 50%;
+	margin-left: 5px;
+	font-size: 12px;
+}

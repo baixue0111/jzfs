@@ -1,0 +1,75 @@
+.subject-dyn{
+	width: 1100px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-top: 12px;
+}
+.subject-dyn .subject-dyn-img{
+	float: left;
+	width: 430px;
+	height: 260px;
+	text-align: center;
+	line-height: 260px;
+	overflow: hidden;
+	vertical-align: middle;
+	border-radius: 5px;
+}
+.subject-dyn .subject-dyn-img img{
+	width: 430px;
+	height: 260px;
+	vertical-align: middle;
+	border-radius: 5px;
+}
+.subject-dyn .subject-dyn-list{
+	width: 650px;
+	float: right;
+}
+.subject-dyn .subject-dyn-list li{
+	height: 75px;
+	width: 610px;
+	background-color: #F2F8FF;
+	position: relative;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 18px;
+	border-radius: 5px;
+}
+.subject-dyn .subject-dyn-list li:last-child{
+	margin-bottom: 0;
+}
+.subject-dyn .subject-dyn-list li h5{
+	padding-top: 15px;
+}
+.subject-dyn .subject-dyn-list li h5 a{
+	display: inline-block;
+	width: 530px;
+	font-size: 16px;
+	color: #3084e4;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.subject-dyn .subject-dyn-list li div a{
+	display: inline-block;
+	width: 590px;
+	font-size: 14px;
+	color: #999999;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.subject-dyn .subject-dyn-list li span{
+	display: inline-block;
+	width: 40px;
+	height: 20px;
+	line-height: 20px;
+	background-color: #3084e4;
+	color: #fff;
+	position: absolute;
+	top: 0;
+	right: 20px;
+	font-size: 12px;
+	text-align: center;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
