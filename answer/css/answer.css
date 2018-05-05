@@ -82,7 +82,7 @@ body{
     padding: 0 .2rem;
     margin: 0 auto;
 }
-.mustSelect h2{
+.mustSelect h2:nth-child(1){
     font-size: .26rem;
     color: #e83e38;
     font-weight: 100;
@@ -92,30 +92,36 @@ body{
     background: #f9e4e3;
     margin-bottom: .05rem;
 }
+.mustSelect .The-title{
+    width: 6.7rem;
+    font-size: .26rem;
+    color: #000;
+    font-weight: 100;
+}
 .answerList{
     width: 6.7rem;
     margin: 0 auto;
 }
 .answerList li{
-    height: .8rem;
-    line-height: .8rem;
     padding-left: .2rem;
     overflow: hidden;
     font-size: .26rem;
     color: #26b59e;
+    margin: .2rem auto;
+
 }
 .bgF3{
     background: #f3f3f3;
 }
 .answerList li input{
-    float: left;
-    margin-top: .23rem;
+    vertical-align: middle;
 }
-.answerList li span{
-    float: left;
+.answerList li label{
     margin-left: .2rem;
+    vertical-align: middle;
+    display: inline-block;
+    width: 5.9rem;
 }
-
 .confirm{
     background: #e83e38;
     font-size: .32rem;

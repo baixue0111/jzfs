@@ -26,9 +26,35 @@
                 <span>队呼:</span>
                 <input type="text" id="slogan">
             </div>
+            <div class="iptGroup-ipt selectNum">
+                <span>编号:</span>
+                <select id="selectNum">
+                    <option value="请选择编号">请选择编号</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                </select>
+            </div>  
         </div>
+        <div class="errorMsg">sfgsfg</div>
         <div class="nextBtn">下一步</div>
     </div>
 </div>
+<script>
+    $("#selectNum").change(function () {
+        console.log($(this).val());
+    })
+</script>
 </body>
 </html>
