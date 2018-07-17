@@ -19,17 +19,16 @@
     position: absolute;
     top: 8px;
     left: 21px;
-    background: #3084e4;
     height: 25px;
     line-height: 25px;
     border-radius: 12px;
     padding: 0 10px;
 }
 .mchConTop-left span{
-    background: url("../images/dw_index_03.png") 0 3px no-repeat;
+    background: url("../images/newPosition.png") 0 3px no-repeat;
     padding-left: 22px;
     font-size: 14px;
-    color: #DBECFF;
+    color: #3084E4;
     font-family: "MicrosoftYaHei";
 }
 .mchConTop-right{
@@ -620,4 +619,139 @@
     width: 100px;
     bottom: 31px;
     left: 0;
+}
+
+/* ****************************** 渐变切换人物*************************** */
+.zjjsMargin{
+    padding: 0 11px 5px 11px;
+}
+.swiper-container5{
+    width: 410px;
+    height: 215px;
+    overflow: hidden;
+}
+.peopleList{
+    padding: 0 21px;
+    overflow: hidden;
+}
+.peopleList li{
+    float: left;
+    position: relative;
+    cursor: pointer;
+    margin-left: 39px;
+}
+.peopleList li:hover .hoverShow{
+    display: block;
+}
+.peopleList li:nth-child(1) {
+    margin-left: 0;
+}
+.imgGroup{
+    width: 151px;
+    height: 218px;
+    overflow: hidden;
+    position: relative;
+}
+.imgGroup img{
+    width: 151px;
+    height: 188px;
+}
+.imgGroup h2{
+    width: 155px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    background: #3084E4;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: absolute;
+    bottom: 11px;
+    left: -2px;
+    z-index: 10;
+}
+.hoverShow{
+    width: 135px;
+    height: 188px;
+    line-height: 188px;
+    text-align: center;
+    padding: 0 8px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(255, 255, 255, .78);
+    z-index: 9;
+    border-radius: 5px;
+    display: none;
+}
+.hoverShow p{
+    font-size: 14px;
+    color: #0852C1;
+    margin-top: 81px;
+    width: 130px;
+    height: 40px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+/* *****************************************学术活动********************************* */
+.xshdCon{
+    width: 1120px;
+    margin: 0 auto;
+    margin-top: 17px;
+    background: #F2F8FF;
+}
+.xshd-title{
+    background: url(../images/xshd_03.png) 0 15px no-repeat;
+    padding-left: 29px;
+}
+#xsActivity{
+    width: 1120px;
+}
+.xshdDiv{
+    width: 1120px;
+    height: 160px;
+    overflow: hidden;
+    position: relative;
+}
+.xshdList{
+    overflow: hidden;
+    width: 9999px;
+    height: 160px;
+    position: absolute;
+    top: 0;
+}
+.xshdList li{
+    float: left;
+    width: 217px;
+    margin-left: 19px;
+}
+.xshdList li:nth-child(1) {
+    margin-left: 0;
+}
+.xshdList li img{
+    width: 217px;
+    height: 121px;
+    cursor: pointer;
+}
+.xshdList li h2{
+    width: 100%;
+    background: #fff;
+    text-align: center;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    color: #595959;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.xshdList li .activeH2{
+    background: #3084E4;
+    color: #fff;
 }

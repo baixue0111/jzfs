@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/lxfs.css">
     <script src="js/jquery.min.js"></script>
     
     <!-- <script src="bootstrap/js/bootstrap.min.js"></script> -->
@@ -139,7 +139,7 @@
         <div class="mch-con">
             <div class="mchCon-top">
                 <div class="mchConTop-left">
-                <span>当前位置：首页 > 关于我们</span>
+                <span>当前位置：首页 > 关于我们 > 研究院简介</span>
                 </div>
                 <div class="mchConTop-right">
                 <p class="mch-date">
@@ -151,58 +151,27 @@
             <div class="aboutLogo">
                 <img src="images/aboutImg1_03.jpg">
             </div>
-            <div class="yjyjj">
-                <div class="yjyjjTitle">
-                    <span>研究院简介</span>
-                    <span>NTRODUCTION</span>
+            <div class="xslw">
+                <div class="xslwLeft">
+                    <h2>关于我们</h2>
+                    <ul class="xslwTab">
+                        <li>
+                            <a href="#">研究院简介</a>
+                        </li>
+                        <li>
+                            <a href="#">组织机构</a>
+                        </li>
+                        <li class="xslwactive">
+                            <a href="#">联系方式</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="yjyCon">
-                    <div class="yjyImg">
-                        <img src="images/aboutImg2_07.png">
-                        <div class="positionText">中国国际贸易促进委员会研究院</div>
+                <div class="xslwRight">
+                    <div class="xslwRighTop">
+                        <span>联系方式</span>
+                        <span>contact us</span>
                     </div>
-                    <div class="yjyText">
-                        <h2>中国贸促会研究院业务简介</h2>
-                        <h3>Academy of China Council for the h3romotion of International Trade</h3>
-                        <p>中国国际贸易促进委员会研究院（简称“中国贸促会研究院”，英文简称ACCPIT）是中国贸促会直属的研究机构，于2016年1月挂牌成立。中国贸促会研究院致力于打造具有中国特色和国际影响力的经贸类智库，立足学术，服务政府，代言工商。</p>
-                        <div class="about-detail">
-                            <a href="#">查看详情</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="zzjg">
-                <div class="zzjgTop">
-                    <h2>组织机构</h2>
-                    <p class="zzjgHr"></p>
-                    <h3>ORGANIZATION</h3>
-                </div>
-                <ul class="zzjgList">
-                    <li>
-                        <img src="images/aboutYld_03.png">
-                        <h2>院领导</h2>
-                    </li>
-                    <li>
-                        <img src="images/aboutzhb_05.png">
-                        <h2>综合部</h2>
-                    </li>
-                    <li>
-                        <img src="images/gjmyyjb_07.png">
-                        <h2>国际贸易研究部</h2>
-                    </li>
-                    <li>
-                        <img src="images/gjtzyjb_09.png">
-                        <h2>国际投资研究部</h2>
-                    </li>
-                </ul>
-            </div>
-            <div class="yjyjj">
-                <div class="yjyjjTitle">
-                    <span>联系方式</span>
-                    <span>CONTACT US</span>
-                </div>
-                <div class="yjyCon">
-                    <div class="lxfs">
+                    <div class="yjyjjCon">
                         <div class="mapDiv">
                             <div class="mapBox">
                                 <div id="allmap">
@@ -255,7 +224,7 @@
                                                 }  
                                                 marker[0].addEventListener("mouseover", function () {  
                                                     this.openInfoWindow(info[0]);  
-                                                });/*   
+                                                });  /* 
                                                 marker[1].addEventListener("mouseover", function () {  
                                                     this.openInfoWindow(info[1]);  
                                                 });  
@@ -281,16 +250,13 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="lxfsRight">
-                        <h2>中国国际贸易促进委员会研究院</h2>
-                        <ul class="addressList">
-                            <li>地址:北京是西城区阜成门外大街2号万通大厦A座716</li>
-                            <li>邮编:100032</li>
-                            <li>电话:010-68015121</li>
-                            <li>传真:010-68012873</li>
-                            <li>信箱:yanjiuyuan@ccpit.org</li>
-                            <li>网址:http://www.ccpit-academy.org/</li>
+                        <ul class="lxfsList">
+                            <li class="address">地址：北京是西城区阜成门外大街2号万通大厦A座716</li>
+                            <li class="postCode">邮编：100032</li>
+                            <li class="tel">电话：010-68015121,010-680128532</li>
+                            <li class="fax">传真：010-68012873</li>
+                            <li class="emails">信箱：yanjiuyuan@ccpit.org</li>
+                            <li class="theUrl">网址：http://www.ccpit-academy.org/</li>
                         </ul>
                     </div>
                 </div>
@@ -344,7 +310,7 @@
         </div>
     <script src="js/swiper-4.2.2.min.js"></script>
     <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=YT0rQnhgh8UUCdvufwF7637C04UTv6UE"></script>
-   
+    <script src="js/index.js"></script>
     </div>
     <script>
         // 禁止用户拖动鼠标选择文字
@@ -354,18 +320,19 @@
         // 禁止用户拖动复制图片
        // function imgdragstart(){return false;}
        // for(i in document.images)document.images[i].ondragstart=imgdragstart;
+       $('.BMap_Marker div').css({'border':'0'})
        $(".navCon .nvaList-li").each(function(index) {
-        $(".navCon .nvaList-li").mouseover(function() {
-            // var _index = index;
-            $(".navCon .nvaList-li .menuList").hide();
-            $(this).children(".menuList").show();
-        });
+				$(".navCon .nvaList-li").mouseover(function() {
+					// var _index = index;
+					$(".navCon .nvaList-li .menuList").hide();
+					$(this).children(".menuList").show();
+				});
 
-        $(".navDiv").mouseout(function() {
-            // var _index = index;
-            $(".navCon .nvaList-li .menuList").hide();
-        })
-    })
+				$(".navDiv").mouseout(function() {
+					// var _index = index;
+					$(".navCon .nvaList-li .menuList").hide();
+				})
+			})
     </script>
 </body>
 </html>

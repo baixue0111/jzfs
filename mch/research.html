@@ -57,31 +57,88 @@
 					</div>
 				</div>
 			</div>
-			<ul class="navbarList">
-				<li class="navItem-width"></li>
-				<li class="navBar-margin hover-li">
-					<a href="index.html">首页</a>
-				</li>
-				<li class="hover-li">
-					<a href="gywo.html">关于我们</a>
-				</li>
-				<li class="hover-li">
-					<a href="yjcg.html">研究成果</a>
-				</li>
-				<li class="hover-li">
-					<a href="ktxm.html">课题项目</a>
-				</li>
-				<li class="hover-li">
-					<a href="zjgd.html">专家观点</a>
-				</li>
-				<li class="hover-li">
-					<a href="xshd.html">学术活动</a>
-				</li>
-				<li class="hover-li">
-					<a href="zjjs.html">专家介绍</a>
-				</li>
-				<li class="navItem-width navBar-margin"></li>
-			</ul>
+			<div class="navDiv">
+				<span class="leftSpan"></span>
+				<ul class="navCon">
+					<li><a href="gywo.html">首页</a></li>
+					<li class="nvaList-li">
+						<a href="gywo.html">关于我们</a>
+						<div class="menuList">
+							<ul id="menuList">
+								<li>
+									<a href="#" target="_blank"><span>研究院简介</span></a>
+								</li>
+								<li>
+									<a href="#" target="_blank"><span>组织机构</span></a>
+								</li>
+								<li>
+									<a href="#" target="_blank"><span>联系方式</span></a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="nvaList-li">
+						<a href="yjcg.html">研究成果</a>
+						<div class="menuList">
+							<ul id="menuList">
+								<li>
+									<a href="#" target="_blank"><span>学术论文</span></a>
+								</li>
+								<li>
+									<a href="#" target="_blank"><span>研究报告</span></a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="nvaList-li">
+						<a href="ktxm.html">课题项目</a>
+						<div class="menuList">
+							<ul id="menuList">
+								<li>
+									<a href="#" target="_blank"><span>课题动态</span></a>
+								</li>
+								<li>
+									<a href="#" target="_blank"><span>课题列表</span></a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="zjgd.html">专家观点</a></li>
+					<li class="nvaList-li">
+						<a href="xshd.html">学术活动</a>
+						<div class="menuList">
+							<ul id="menuList">
+								<li>
+									<a href="#" target="_blank"><span>会议论坛</span></a>
+								</li>
+								<li>
+									<a href="#" target="_blank"><span>调查研究</span></a>
+								</li>
+								<li>
+									<a href="#" target="_blank"><span>国际合作</span></a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="nvaList-li">
+						<a href="zjjs.html">专家介绍</a>
+						<div class="menuList">
+							<ul id="menuList">
+								<li>
+									<a href="#" target="_blank"><span>院内专家</span></a>
+								</li>
+								<li>
+									<a href="#" target="_blank"><span>研究人员</span></a>
+								</li>
+								<li>
+									<a href="#" target="_blank"><span>贸促会专家委员会</span></a>
+								</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+				<span class="leftright"></span>
+			</div>
 			<div class="mch-con">
 				<div class="mchCon-top">
 					<div class="mchConTop-left">
@@ -348,15 +405,18 @@
 			<script src="js/index.js"></script>
 		</div>
 		<script>
-			// 禁止用户拖动鼠标选择文字
-			document.oncontextmenu = new Function('event.returnValue=false;');
-			document.onselectstart = new Function('event.returnValue=false;');
+			$(".navCon .nvaList-li").each(function(index) {
+				$(".navCon .nvaList-li").mouseover(function() {
+					// var _index = index;
+					$(".navCon .nvaList-li .menuList").hide();
+					$(this).children(".menuList").show();
+				});
 
-			// 禁止用户拖动复制图片
-			function imgdragstart() {
-				return false;
-			}
-			for(i in document.images) document.images[i].ondragstart = imgdragstart;
+				$(".navDiv").mouseout(function() {
+					// var _index = index;
+					$(".navCon .nvaList-li .menuList").hide();
+				})
+			})
 		</script>
 	</body>
 

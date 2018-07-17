@@ -124,51 +124,69 @@
     height: 35px;
     background: #3084e4;
     text-align: center;
-    /* line-height: 45px; */
     line-height: 32px;
 }
 .topRB-right img{
     width: 22px;
     height: 22px;
 }
-.navbarList{
-    margin: 12px auto;
-    overflow: hidden;
+.navDiv{
+    width: 100%;
 }
-.navbarList li{
-    float: left;
-    background: #E3EEFC;
-    /* padding: 11px 49px 13px 49px; */
-    height: 39px;
-    /* line-height: 15px; */
-    margin-left: 5px;
-    cursor: pointer;
-}
-.navbarList .navItem-width{
-    margin-left: 0;
-}
-.navbarList li a{
-    font-size: 16px;
-    color: #4d4d4d;
-    font-weight: bold;
-    /* 后加以下两行代码 */
+.navDiv span{
     display: inline-block;
-    padding: 8px 51px 7px 50px;
-}
-.navbarList .hover-li:hover{
-    background: #3084e4;
-}
-.navbarList .hover-li:hover a{
-    color: #fff;
-}
-.navbarList .navItem-width{
-    width: 19.7%;
-    cursor: default;
-}
-.navbarList .navBar-margin{
-    margin-left: 0;
+    width: 251px;
+    height: 39px;
+    background: #E3EEFC;
 }
 
+.leftSpan{
+    float: left;
+}
+.leftright{
+    float: right;
+}
+.navCon{
+    /* overflow: hidden; */
+    display: inline-block;
+    width: calc(100% - 502px);
+}
+.navCon li{
+    width: 13.6%;
+  /*   height: 39px;
+    line-height: 39px; */
+    text-align: center;
+    float: left;
+    margin-left: 0.8%;
+    position: relative;
+}
+.positionHover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 99.6%;
+    height: 50px;
+    cursor: pointer;
+}
+.navCon li:nth-child(1) {
+    margin-left: 0;
+}
+.navCon li a{
+    display: inline-block;
+    width: 100%;
+    height: 39px;
+    line-height: 39px;
+    color: #4d4d4d;
+    font-weight: bold;
+    font-size: 16px;
+    background: #E3EEFC;
+    position: relative;
+    z-index: 99;
+}
+.navCon li a:hover {
+    color: #fff;
+    background: #3084e4;
+}
 
 
 /* *************************************************** 底部*********************************************** */
@@ -231,7 +249,7 @@
     color: #666;
     margin-bottom: 11px;
 }
-.footList li{
+.footList .footListItem{
     border: 1px solid #909193;
     height: 27px;
     
@@ -242,12 +260,12 @@
 .footList li:nth-child(1) {
     margin-top: 0;
 }
-.footList li a{
+.footList li div{
     padding: 0 20px;
-    display: block;
+   /*  display: block; */
 }
 .float-a{
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .float-a span{
     background: url("../images/hr-3_07.png") 84px 4px no-repeat;
@@ -270,4 +288,48 @@
 }
 .mchFoot-bottom p span{
     margin-left: 19px;
+}
+/* ****************************************** 导航栏鼠标以上显示二级菜单列表 ************************** */
+/* 把.navCon的overflow: hidden;样式去掉 */
+.menuList{
+    width: 250px;
+    background: #fff;
+    position: absolute;
+    /* top: 45px;
+    left: 0; */
+    top: 45px;
+    left: 0;
+    z-index: 99;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, .1);
+    display: none;
+}
+.menuList ul{
+    overflow: hidden;
+}
+.menuList li{
+    font-size: 16px;
+    height: 48px;
+    line-height: 48px;
+    margin: 0 auto;
+    text-align: left;
+    cursor: pointer;
+    width: 100%;
+}
+.menuList li span{
+    background: #fff;
+    display: inline-block;
+    padding-left: 61px;
+    width: 76%;
+    height: 48px;
+    line-height: 48px;
+}
+.menuList li a{
+    color: #4d4d4d;
+    font-weight: normal;
+}
+#menuList a:hover span{
+    background: #e3eefc;
+}
+#menuList a:hover{
+    color: #4d4d4d;
 }

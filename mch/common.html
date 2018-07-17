@@ -50,17 +50,19 @@
                 </div>
             </div>
         </div>
-        <ul class="navbarList">
-            <li class="navItem-width"></li>
-            <li class="navBar-margin hover-li"><a href="index.html">首页</a></li>
-            <li class="hover-li"><a href="gywo.html">关于我们</a></li>
-            <li class="hover-li"><a href="yjcg.html">研究成果</a></li>
-            <li class="hover-li"><a href="ktxm.html">课题项目</a></li>
-            <li class="hover-li"><a href="zjgd.html">专家观点</a></li>
-            <li class="hover-li"><a href="xshd.html">学术活动</a></li>
-            <li class="hover-li"><a href="zjjs.html">专家介绍</a></li>
-            <li class="navItem-width navBar-margin"></li>
-        </ul>
+        <div class="navDiv">
+            <span class="leftSpan"></span>
+            <ul class="navCon">
+                <li><a href="gywo.html">首页</a></li>
+                <li><a href="gywo.html">关于我们</a></li>
+                <li><a href="yjcg.html">研究成果</a></li>
+                <li><a href="ktxm.html">课题项目</a></li>
+                <li><a href="zjgd.html">专家观点</a></li>
+                <li><a href="xshd.html">学术活动</a></li>
+                <li><a href="zjjs.html">专家介绍</a></li>
+            </ul>
+            <span class="leftright"></span>
+        </div>
         <div clas="mch-con" style="min-width: 1181px; width: 1181px; margin: 0 auto;height: 300px; background: #fff;"></div>
         <div class="mchfoot">
             <div class="mch-foot">
@@ -109,5 +111,52 @@
             <p>©中国贸促会研究院(www.ccpit-academy.org/)  <span>京ICP备17009116号</span></p>
         </div>
     </div>
+
+
+    <div class="mch-container">
+            <div class="mch-top">
+                <div class="top-left">
+                    <img src="{$GetTemplateDir}/images/top-logo_02.png" class="top-logo1">
+                    <img src="{$GetTemplateDir}/images/top-logo2_02.png" class="top-logo2">
+                </div>
+                <div class="top-right">
+                    <div class="top-right-top">
+                        <div class="topRT-left">
+                            <a href="{$GetTemplateDir}/index.html">
+                                <span class="chinese active">中</span>
+                            </a>
+                        </div>
+                        <div class="topRT-right">
+                            <a href="english.html">
+                                <span class="ens">英</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="top-right-bottom">
+                       <div class="topRBL-width">
+                            <a href="#">
+                                <div class="topRB-right">
+                                    <img src="{$GetTemplateDir}/images/search_03.png">
+                                </div>
+                            </a>
+                            <div class="topRB-left">
+                                <input type="text" placeholder="请输入您要查询的内容" class="search">
+                            </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="navbarList">
+                {KS_顶部导航}
+            </ul>
+
+            <li class="navItem-width"></li>
+            <li><a href="/">首页</a></li>
+            [Loop Times="7"]
+            <li{KS:Field:CurrentCss}><a href="{$Field(ClassID,url,1,3)}">{$Field(ClassName,text,0,...,2,)}</a></li>
+            [/Loop]
+            <li class="navItem-width navBar-margin"></li>
+
+
 </body>
 </html>
