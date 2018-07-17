@@ -1,0 +1,28 @@
+.mui-content span{
+	font-size: .28rem;
+}
+.mui-content .floatLeft{
+	float: left;
+}
+
+.mui-content .floatRight{
+	float: right;
+	margin-right: .6rem;
+	color: #df1818;
+}
+/*已完善*/
+.mui-content .perfect{
+	color: #0fb316;
+}
+/*待补充*/
+.mui-content .waitSupp{
+	color: #e77e21;
+}
+/*已审核*/
+.mui-content .checked{
+	color: #4c8ce4;
+}
+/*审核不通过*/
+.mui-content .checkError{
+	color: #f40000;
+}

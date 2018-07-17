@@ -38,25 +38,29 @@
 .remainNum{
     display: inline-block;
 }
+.activityName{
+    font-size: .28rem;
+    color: #666;
+    margin-bottom: .2rem;
+    font-weight: bold;
+}
+.activityName span{
+    color: #000;
+}
 .selectDate-bottom li{
     margin-top: .2rem;
+    font-size: .24rem;
+    color: #666;
+    background: url(../images/08.png) 0 .08rem no-repeat;
+    padding-left: .41rem;
+    background-size: .22rem;
+    line-height: .4rem;
 }
 .selectDate-bottom li:nth-child(1){
     margin-top: 0;
 }
-.selectTime span{
-    display: inline-block;
-    font-size: .24rem;
-    color: #666;
-    background: url(../images/08.png) 0 .02rem no-repeat;
-    padding-left: .41rem;
-    background-size: .22rem;
-}
-.selectTime span:nth-child(2) {
-    margin-left: 1.36rem;
-}
-.selectTime .selectSpan{
-    background: url(../images/07.png) 0 .02rem no-repeat;
+.selectDate-bottom .selectSpan{
+    background: url(../images/07.png) 0 .08rem no-repeat;
     background-size: .22rem;
 }
 .selectData{

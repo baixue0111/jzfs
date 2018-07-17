@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>身份证认证</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link href="css/cardAuthen.css" rel="stylesheet"/>
+    <script src="js/mui.min.js"></script>  
+    <script src="js/jquery-3.3.1.min.js"></script> 
+    <!--<script src="js/vconsole.min.js"></script>-->
+    <script src="js/common.js"></script> 
+</head>
+<body>
+<div class="mui-content">
+    <div class="mui-input-group cardAuthen">
+	    <div class="mui-input-row">
+	        <label>姓名：</label>
+	    	<input type="text" class="mui-input-clear" id="name" placeholder="请输入姓名">
+	    </div>
+	    <div class="mui-input-row">
+	        <label>性别：</label>
+	    	<input type="text" class="mui-input-clear" id="sex" placeholder="请输入性别">
+	    </div>
+	    <div class="mui-input-row">
+	        <label>民族：</label>
+	    	<input type="text" class="mui-input-clear" id="nation" placeholder="请输入民族">
+	    </div>
+	    <div class="mui-input-row">
+	        <label>身份证号：</label>
+	    	<input type="text" class="mui-input-clear" id="cardId" placeholder="请输入身份证号">
+	    </div>
+	    <div class="mui-input-row">
+	        <label>出生日期：</label>
+	    	<input type="text" class="mui-input-clear" onfocus="onFocusInput(this)" onblur="onBlurInput(this)" id="getDate" placeholder="请输入出生日期">
+	    </div>
+	    <div class="mui-input-row">
+	        <label>户籍地址：</label>
+	    	<input type="text" class="mui-input-clear" id="address" placeholder="请输入户籍地址">
+	    </div>
+	   	<div class="mui-table-view">
+		    <li class="backgroundImg">图片信息上传：</li>
+		    <ul class="imgList">
+		   		<li>
+		   			<div class="showImg">
+		   				<div class="imgWidth" id="headImage">
+		   					<img src="images/image2.png" id="cardFront"/>
+		   					<input type="file" name="image" accept="image/*" class="uploadFile" onchange="uploadChange(this, 'cardFront', 0)" />
+		   				</div>
+		   				<span>身份证正面</span>
+		   			</div>
+		   		</li>
+		   		<li>
+		   			<div class="showImg">
+		   				<div class="imgWidth">
+		   					<img src="images/image2.png"/ id="cardBack">
+		   					<input type="file" name="image" accept="image/*" class="uploadFile" onchange="uploadChange(this, 'cardBack', 1)" />
+		   				</div>
+		   				<span>身份证反面</span>
+		   			</div>
+		   		</li>
+		   	</ul>
+		</div>
+    </div>
+    <div class="cardAuthenSave">
+		<button type="button" class="mui-btn mui-btn-primary">保存</button>
+	</div>
+	<!--申请单号-->
+	<input type="hidden" id="appliNo" value=""/>
+</div>
+<script src="js/cardAuthen.js"></script>
+<script type="text/javascript">
+//var vConsole = new VConsole();
+</script>
+</body>
+</html>

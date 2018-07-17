@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>个人所提交资料</title>
+
+    <!-- Bootstrap -->
+	<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/subInfoPc.css">
+	<link rel="stylesheet" href="css/proveData.css">
+
+
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+	<section>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid navbar-bgcolor">
+				<div class="navbar-header">
+					<span class="navbar-brand">资料列表</span>
+				</div>
+			</div>
+		</nav>
+		<div class="navTabCon container-fluid">
+			<div class="row">
+				<div class="navTab-left col-sm-3 col-md-2 sidebar">
+					<ul class="nav nav-pills nav-stacked">
+						<li role="presentation" class="active" onclick="baseInfo()">
+							<a href="#">基本信息</a>
+						</li>
+						<li role="presentation" id="group_20" onclick="openUpload(this)">
+							<a href="#">
+								<span class="navLeft">借款人身份证照片</span>
+								<span class="navRight">未上传</span>
+							</a>
+						</li>
+						<li role="presentation" id="group_21" onclick="openUpload(this)">
+							<a href="#">
+								<span class="navLeft">借款人配偶身份证照片</span>
+								<span class="navRight">未上传</span>
+							</a>
+						</li>
+						<li role="presentation" id="group_22" onclick="openUpload(this)">
+							<a href="#">
+								<span class="navLeft">借款人结婚证照片</span>
+								<span class="navRight">未上传</span>
+							</a>
+						</li>
+						<li role="presentation" id="group_23" onclick="openUpload(this)">
+							<a href="#">
+								<span class="navLeft">借款人户口本照片</span>
+								<span class="navRight">未上传</span>
+							</a>
+						</li>
+						<li role="presentation" id="group_26" onclick="openUpload(this)">
+							<a href="#">
+								<span class="navLeft">抵押人身份证照片</span>
+								<span class="navRight">未上传</span>
+							</a>
+						</li>
+						<li role="presentation" id="group_27" onclick="openUpload(this)">
+							<a href="#">
+								<span class="navLeft">抵押人配偶身份证照片</span>
+								<span class="navRight">未上传</span>
+							</a>
+						</li>
+						<li role="presentation" id="group_28" onclick="openUpload(this)">
+							<a href="#">
+								<span class="navLeft">抵押人结婚证照片</span>
+								<span class="navRight">未上传</span>
+							</a>
+						</li>
+						<li role="presentation" id="group_29" onclick="openUpload(this)">
+							<a href="#">
+								<span class="navLeft">抵押人户口本照片</span>
+								<span class="navRight">未上传</span>
+							</a>
+						</li>
+						<li role="presentation" id="group_30" onclick="openUpload(this)">
+							<a href="#">
+								<span class="navLeft">抵押的房产证照片</span>
+								<span class="navRight">未上传</span>
+							</a>
+						</li>
+						<li role="presentation" id="group_31" onclick="openUpload(this)">
+							<a href="#">
+								<span class="navLeft">借款人的个人资产</span>
+								<span class="navRight">未上传</span>
+							</a>
+						</li>
+						<li role="presentation" id="group_33" onclick="openUpload(this)">
+							<a href="#">
+								<span class="navLeft">个人流水(近半年)</span>
+								<span class="navRight">未上传</span>
+							</a>
+						</li>
+						<li role="presentation" id="group_34" onclick="openUpload(this)">
+							<a href="#">
+								<span class="navLeft">贷款卡照片</span>
+								<span class="navRight">未上传</span>
+							</a>
+						</li>
+						<li role="presentation" id="group_35" onclick="openUpload(this)">
+							<a href="#">
+								<span class="navLeft">本次借款支付合同</span>
+								<span class="navRight">未上传</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="navTab-right col-sm-9 col-md-10">
+					<iframe src="baseInfo.html" width="100%" frameborder="0" id="external-frame" frameborder="0" scrolling="no"></iframe>
+				</div>
+			</div>
+		</div>
+	</section>	
+
+	<!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/subPersonPc.js"></script>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>房产信息</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/mui.picker.min.css" />
+    <link href="css/cardAuthen.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/houseMsg.css" />
+    <script src="js/mui.min.js"></script>  
+    <script src="js/mui.picker.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script> 
+    <script src="js/common.js"></script> 
+</head>
+<body>
+
+<div class="mui-content">
+    <div class="mui-input-group cardAuthen">
+	    <div class="mui-input-row">
+	        <label>小区名称：</label>
+	    	<input type="text" class="mui-input-clear" placeholder="请输入小区名称">
+	    </div>
+	    <div class="mui-input-row">
+	        <label>面积：</label>
+	    	<input type="text" class="mui-input-clear" placeholder="请输入房屋面积（平方米）">
+	    </div>
+	    <div class="mui-input-row">
+	        <label class="mortgageLabel">是否按揭：</label>
+	    	<div class="mortgage">
+	    		<label for="mortgageTrue">是</label><input type="radio" name="isMortgage" value="1" id="mortgageTrue"/>
+	    		<label for="mortgageFalse">否</label><input type="radio" name="isMortgage" value="2"id="mortgageFalse"/>
+	    	</div>
+	    </div>
+	    <div class="mui-input-row mortgageMoney">
+	        <label>按揭金额：</label>
+	    	<input type="text" class="mui-input-clear" placeholder="请输入按揭金额（元）">
+	    </div>
+	    <div class="mui-input-row">
+	        <label>购买日期：</label>
+	    	<input type="date" class="mui-input-clear" placeholder="请输入购买日期">
+	    </div>
+	    <div class="mui-input-row">
+	        <label>估值：</label>
+	    	<input type="text" class="mui-input-clear" placeholder="请输入估值（元）">
+	    </div>
+	    <div class="mui-input-row">
+	        <label>地址：</label>
+	    	<!--<input type="text" class="mui-input-clear" placeholder="请输入估值（元）">-->
+    		<select class="addressList">
+    			<option value="请选择省">请选择省</option>
+    			<option value="请选择省">内蒙古</option>
+    		</select>
+    		<select class="addressList">
+    			<option value="请选择省">请选择市</option>
+    			<option value="请选择省">哈哈哈哈哈哈</option>
+    		</select>
+    		<select class="addressList">
+    			<option value="请选择省">请选择区</option>
+    			<option value="请选择省">啦啦啦啦啦</option>
+    		</select>
+	    </div>
+	    <div class="mui-input-row">
+	        <label>详细街道地址：</label>
+	    	<input type="text" class="mui-input-clear" placeholder="请输入详细街道地址">
+	    </div>
+	   	<div class="mui-table-view">
+		    <li class="mui-table-view-cell backgroundImg">图片信息上传：</li>
+		    <ul class="imgList">
+		   		<li>
+		   			<div class="showImg">
+		   				<div class="imgWidth" id="headImage">
+		   					<img src="images/image2.png" id="cardFront"/>
+		   					<input type="file" name="image" accept="image/*" class="uploadFile" onchange="uploadChange(this, 'cardFront')" />
+		   				</div>
+		   				<span>房本正面</span>
+		   			</div>
+		   		</li>
+		   	</ul>
+		</div>
+    </div>
+    <div class="cardAuthenSave">
+		<button type="button" class="mui-btn mui-btn-primary">保存</button>
+	</div>
+</div>
+<script src="js/houseInfo.js"></script>
+</body>
+</html>

@@ -22,9 +22,40 @@
     margin: 0 auto;
     padding-top: .4rem;
     margin-top: .4rem;
+    position: relative;
+}
+#sfz-file{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: inline-block;
+    width: .9rem;
+    height: .9rem;
+    margin-top: -.75rem;
+    background: none;
+    border-radius: .5rem;
+    opacity: 0;
+    margin-left: -.45rem;
+}
+#sfz-file2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: inline-block;
+    width: .9rem;
+    height: .9rem;
+    margin-top: -.75rem;
+    background: none;
+    border-radius: .5rem;
+    opacity: 0;
+    margin-left: -.45rem;
 }
 .cl-list li:nth-child(1) {
     margin-top: 0;
+}
+.showUpdateImg{
+    width: 5.1rem;
+    height: 2.3rem;
 }
 .cl-list li img{
     width: 3.01rem;
@@ -34,7 +65,7 @@
 .cl-list li p{
     font-size: .28rem;
     color: rgb(76, 140, 229);
-    margin-top: .27rem;
+    /*margin-top: .27rem;*/
 }
 .sfyz-message{
     font-size: .24rem;

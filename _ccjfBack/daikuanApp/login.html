@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>登录</title>
+		<link href="css/reset.css" rel="stylesheet"/> 
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link href="css/login.css" rel="stylesheet" />   
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/mui.min.js"></script>
+		<script src="js/common.js"></script>
+	</head>
+	<body>
+		<div class="mui-content">
+			<div class="content">
+				<form id='login-form' class="mui-input-group">
+						<div class="mui-input-row">
+							<label><div class="mui-icon mui-icon-person"></div></label>
+							<input id='account' type="number" class="mui-input-clear mui-input" oninput="if(value.length>=11)value=value.slice(0,11)" placeholder="请输入手机号">
+						</div>
+						<div class="mui-input-row">
+							<label><div class="mui-icon mui-icon-locked"></div></label>
+							<input id='password' type="password" class="mui-input-clear mui-input" placeholder="请输入密码">
+						</div>
+						<!--<div class="mui-input-row">
+							<label><div class="mui-icon iconfont icon-yanzhengma1"></div></label>
+							<input id='account' type="text" class="mui-input-clear mui-input" placeholder="请输入验证码">
+							<div id="yzm">	
+							</div>
+						</div>-->
+					</form>
+		
+					<div class="mui-content-padded">
+						<button class="mui-btn mui-btn-block mui-btn-primary" data-loading-icon="mui-spinner mui-spinner-custom" onclick="signIn(this)">登录</button>
+						<div class="login_one">
+							<div class="login_one_one">其他方式登录</div>
+							<div class="login_one_span">
+								<span class="left"></span>
+									<!--微信字体图标-->
+									<div id="weixin" class="mui-icon mui-icon-weixin"></div>
+								<span class="right"></span>
+							</div>
+						</div>
+						<div class="link-area">
+							<a id='reg' onclick="regBtn()">注册账号</a>
+							<a id='forgetPassword' onclick="forgetPass()">忘记密码</a>
+						</div>
+					</div>
+				</div>
+			</div>	
+	<script src="js/login.js"></script>
+	</body>
+</html>

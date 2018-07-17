@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>进件详情</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link href="css/cardAuthen.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/checkList.css" />
+    <script src="js/mui.min.js"></script>  
+    <script src="js/mui.picker.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script> 
+    <script src="js/common.js"></script> 
+</head>
+<body>
+<div class="mui-content">
+	<div class="list">
+		<span>申请基本信息</span>
+	</div>
+	<!--字段值需从ajax获取-->
+    <div class="mui-input-group cardAuthen">
+	    <div class="mui-input-row">
+	        <label>姓名：</label>
+	    	<input type="text" disabled="disabled" value="阿白">
+	    </div>
+	    <div class="mui-input-row">
+	        <label>电话：</label>
+	    	<input type="text" disabled="disabled" value="189***9685">
+	    </div>
+	    <div class="mui-input-row">
+	        <label>身份证：</label>
+	    	<input type="text" disabled="disabled" value="125698745698745698">
+	    </div>
+	    <div class="mui-input-row">
+	        <label>产品：</label>
+	    	<input type="text" disabled="disabled" value="我不贷">
+	    </div>
+	    <div class="mui-input-row">
+	        <label>期望金额：</label>
+	    	<input type="text" disabled="disabled" value="000000">
+	    </div>
+	    <div class="mui-input-row">
+	        <label>期望年限：</label>
+	    	<input type="text" disabled="disabled" value="不还">
+	    </div>
+    </div>
+    <!--字段需从ajax获取-->
+    <div class="list">
+		<span>申请审核历史记录</span>
+	</div>
+    <div class="cardAuthen">
+	   	<div class="logistics_message">
+			<div class="wlxx">
+				<div class="mh-list">
+                    <ul>
+                        <li class="first">
+                            <p>已支付</p>
+                            <p>2018-05-26  10:30:26</p>
+                            <span class="before"></span><span class="after"></span>
+                        </li>
+                        <li>
+                            <p>已通知</p>
+                            <p>2018-05-26  10:30:26</p>
+                            <span class="before"></span><span class="after"></span>
+                        </li>
+                        <li>
+                            <p>信息已录入</p>
+                            <p>2018-05-26  10:30:26</p>
+                            <span class="before"></span><span class="after"></span>
+                        </li>
+                        <li>
+                            <p>已申请</p>
+                            <p>2018-05-26  10:30:26</p>
+                            <span class="before"></span><span class="after"></span>
+                        </li>
+                        <li>
+                            <p>已报案</p>
+                            <p>2018-05-26  10:30:26</p>
+                            <span class="before"></span><span class="after"></span>
+                        </li> 
+                    </ul>
+                </div>
+            </div>
+        </div>
+	</div>
+</div>
+<script src="js/checkList.js"></script>
+</body>
+</html>

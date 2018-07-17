@@ -1,0 +1,74 @@
+.progressList{
+	padding-bottom: 15px;
+}
+.queryBtn{
+	text-align: center;
+	margin: .1rem auto .2rem auto;
+}
+.queryBtn button{
+	width: 36%;
+}
+
+/*进件列表展示*/
+.mui-scroll-wrapper{
+	/*top: 1rem;*/
+}
+.tableList{
+	width: 96%;
+	margin: 0 auto;
+	border-left: 1px solid #c8c7cc;
+	border-right: 1px solid #c8c7cc;
+}
+.mui-table-view-cell:after{
+	left: -5px;
+}
+.tableList li{
+	padding: 11px 0;
+}
+/*.tableList li::after{
+	height: 0;
+}*/
+.tableList li:nth-of-type(even){
+	background: #efeff4;
+}
+.tableList li:nth-child(1){
+	background: #4c8ce4;
+}
+.tableList li:nth-child(1) span{
+	color: #fff;
+}
+.tableList li span{
+	display: inline-block;
+	font-size: .28rem;
+	text-align: center;
+}
+.tableList li .fontSize{
+	font-size: .3rem;
+	font-weight: bold;
+}
+.mui-navigate-right:after, .mui-push-right:after{
+	right: 5px;
+}
+.firstSpan{
+	width: 23%;
+}
+.secondSpan{
+	width: 24%;
+}
+
+/*新增代码*/
+.widthSpecil{
+	width: 30%;
+}
+
+
+.thirdSpan{
+	width: 20%;
+	margin-left: .1rem;
+}
+.mui-pull-caption-nomore{
+	font-size: .28rem;
+}
+#getQueryVal{
+	font-size: .28rem;
+}

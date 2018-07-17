@@ -1,0 +1,30 @@
+{
+"status": "0",
+    "message": "成功！",
+    "data": [{
+       "cust_name": "阿白",
+       "product_name": "我不贷",
+       "update_date": "2018-5-31",
+       "status": "已审核"
+	},{
+       "cust_name": "小白",
+       "product_name": "测试2",
+       "update_date": "2018-5-31",
+       "status": "待审核"
+    },{
+       "cust_name": "小小白",
+       "product_name": "测试2",
+       "update_date": "2018-5-31",
+       "status": "未审核"
+    },{
+       "cust_name": "白小小",
+       "product_name": "测试2",
+       "update_date": "2018-5-31",
+       "status": "未审核"
+    },{
+       "cust_name": "测试3",
+       "product_name": "测试2",
+       "update_date": "2018-5-31",
+       "status": "未审核"
+    }]
+}

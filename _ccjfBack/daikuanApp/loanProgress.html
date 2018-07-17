@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>贷款进度</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/loanProgress.css" />
+    <link rel="stylesheet" href="css/tableListCss.css" />
+    <link rel="stylesheet" href="css/iconfont.css" />
+    <script src="js/mui.min.js"></script>  
+    <script src="js/jquery-3.3.1.min.js"></script> 
+    <script src="js/common.js"></script> 
+</head>
+<body>
+
+<div class="mui-content">
+	<div class="mui-scroll-wrapper" id="pullRefresh">
+		<div class="mui-scroll">
+			<!--这里放置真实显示的DOM内容-->
+			<div class="mui-input-row mui-search loanSearch">
+			    <input type="search" class="mui-input-clear" id="getQueryVal" placeholder="查询关键字">
+			</div>
+			<div class="mui-input-group loanProgress">
+			    <div class="mui-input-row">
+			        <label>起始日期：</label>
+			    	<input type="date" id="startDate" placeholder="请选择起始日期">
+			    </div>
+			    <div class="mui-input-row">
+			        <label>截至日期：</label>
+			    	<input type="date" id="endDate" placeholder="请选择起始日期">
+			    </div>
+			    <div class="checkList">
+			    	<div id="selectBox">  
+					    <ul class="radioGroup">  
+					        <!--<li><input type="radio" value="0" name="status" id="check1"><label for="check1">已完善</label></li>  
+					        <li><input type="radio" value="1" name="status" id="check2"><label for="check2">未完善</label></li>  
+					        <li><input type="radio" value="2" name="status" id="check3"><label for="check3">待补充</label></li>  
+					        <li><input type="radio" value="3" name="status" id="check4"><label for="check4">已审核</label></li>  
+					        <li><input type="radio" value="4" name="status" id="check5"><label for="check5">审核不通过</label></li>  -->
+					        
+					       <li>
+			                   <button type="button" class="mui-btn mui-btn-warning  mui-btn-outlined">待补充</button>
+			                </li>
+			              	<li>
+			                   <button type="button" class="mui-btn mui-btn-success mui-btn-outlined">待审核</button>
+			                </li>
+			                <li>
+			                   <button type="button" class="mui-btn mui-btn-primary mui-btn-outlined">已通过</button>
+			                </li>
+			                 <!--  <li>
+			                   <button type="button" class="mui-btn  mui-btn-outlined">未完善</button>
+			                  </li> -->
+			                <li>
+			                   <button type="button" class="mui-btn mui-btn-danger mui-btn-outlined">未通过</button>
+			                </li>
+					    </ul>  
+					</div>  
+			    </div>
+			    <div class="queryBtn" id="queryBtn">
+			    	<button type="button" onclick="findProgress()" class="mui-btn mui-btn-primary queryBtn" data-loading-text="查询中" data-loading-icon-position="right" data-loading-icon="mui-spinner mui-spinner-white">查询</button>
+			    </div>
+			</div>   
+			<div class="list">
+				<i></i>
+				<span>进件列表</span>
+				<!--<span>1个</span>-->
+			</div>
+			<div class="progressList">
+				<ul class="mui-table-view tableList">
+				    <li class="mui-table-view-cell">
+				    	<span class="firstSpan fontSize">客户姓名</span>
+				    	<span class="secondSpan fontSize">产品名</span>
+				    	<span class="secondSpan fontSize">日 期</span>
+				    	<span class="thirdSpan fontSize">状 态</span>
+				    </li>
+				    <!--<li class="mui-table-view-cell clickLi" id="a">
+				    	<div class="mui-navigate-right">
+				    		<span class="firstSpan">阿白阿白</span>
+					    	<span class="secondSpan">永乐贷吖吖</span>
+					    	<span class="secondSpan">2018-06-17</span>
+					    	<span class="thirdSpan">已审核</span>
+				    	</div>
+				    </li>-->
+				</ul>
+		   </div>
+		</div>
+	</div>
+</div>
+<nav class="mui-bar mui-bar-tab">
+	<div class="mui-tab-item" onclick="indexPage()">
+        <span class="mui-icon iconfont icon-shouye"></span>
+        <span class="mui-tab-label">首页</span>
+    </div>
+    <div class="mui-tab-item mui-active">
+        <span class="mui-icon iconfont icon-jindu"></span>
+        <span class="mui-tab-label">进度</span>
+    </div>
+    <div class="mui-tab-item" onclick="earnBtn()">
+        <span class="mui-icon iconfont icon-shouyi"></span>
+        <span class="mui-tab-label">收益</span>
+    </div>
+    <div class="mui-tab-item" onclick="customer()">
+        <span class="mui-icon iconfont icon-kehu"></span>
+        <span class="mui-tab-label">客户</span>
+    </div>
+    <div class="mui-tab-item" onclick="my()">
+        <span class="mui-icon iconfont icon-wode"></span>
+        <span class="mui-tab-label">我的</span>
+    </div>
+ </nav>
+<script type="text/javascript" src="js/loanProgress.js"></script>
+
+</body>
+</html>

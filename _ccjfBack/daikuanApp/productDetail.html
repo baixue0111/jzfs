@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>产品介绍</title>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link href="css/productDetail.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/reset.css" />
+    <script src="js/mui.min.js"></script>  
+    <script src="js/jquery-3.3.1.min.js"></script> 
+    <script src="js/common.js"></script> 
+</head>
+<body>
+
+<!--<div class="mui-scroll-wrapper">
+	<div class="mui-scroll">-->
+		<div class="mui-content">
+			<div>
+			    <ul class="productList mui-row">
+			    	<li class="mui-col-xs-11">
+			    		<div class="product-title">
+					    	<span class="product-hr"></span>
+					    	<span class="titleFont">产品简介</span>
+					    	<span class="product-hr"></span>
+					    </div>
+					    <div class="productIntro">永续贷，中原银行创新推出的住房抵押网络贷款，借款人以本人名下现房或贷款所购房产做抵押，在线申请、在线评价、在线审批、最快一天到账，可多样化、人性化满足借款人家庭购房、购车、装修、消费、经营等全方位融资需求。</div>
+			    	</li>
+			    	<li class="mui-col-xs-11">
+			    		<div class="product-title">
+					    	<span class="product-hr"></span>
+					    	<span class="titleFont">申请资料</span>
+					    	<span class="product-hr"></span>
+					    </div>
+					    <div class="productIntro">
+					    	<ul>
+					    		<li>1.本人及配偶（若有）、拟抵押房产共有人（若有）的身份证原件、房产证原件。</li>
+					    		<li>2.本人婚姻状况证明。未婚的需要提供单身声明，已婚的需提供结婚证明，已离婚的需提供法院民事调解书/裁决书或离婚证。</li>
+					    		<li>3.按揭客户需提供收入证明。</li>
+					    	</ul>
+					    </div>
+			    	</li>
+			    	<li class="mui-col-xs-11">
+			    		<div class="product-title">
+					    	<span class="product-hr"></span>
+					    	<span class="titleFont">贷款金额</span>
+					    	<span class="product-hr"></span>
+					    </div>
+					    <div class="productIntro">最高1000万元，抵押率不超过8成。</div>
+			    	</li>
+			    	<li class="mui-col-xs-11">
+			    		<div class="product-title">
+					    	<span class="product-hr"></span>
+					    	<span class="titleFont">还款方式</span>
+					    	<span class="product-hr"></span>
+					    </div>
+					    <div class="productIntro">按月还息到期还本，随借随还。</div>
+			    	</li>
+			    	<li class="mui-col-xs-11">
+			    		<div class="product-title">
+					    	<span class="product-hr"></span>
+					    	<span class="titleFont">房产准入条件</span>
+					    	<span class="product-hr"></span>
+					    </div>
+					    <div class="productIntro">
+					    	<ul>
+					    		<li>1.须为借款人本人名下房产。</li>
+					    		<li>2.如有共有人，须为非未成年人。</li>
+					    		<li>3.如为经济适用房，须满五年且可上市流通。</li>
+					    	</ul>
+					    </div>
+			    	</li>
+			    </ul>
+		    </div>
+		</div>
+		<div class="mask" onclick="hideLoanInten()"></div>
+		<div class="product-alert">
+			<form class="mui-input-group">
+			    <div class="mui-input-row">
+			        <label>期望额度：</label>
+			        <input type="text" class="mui-input-clear" id="money" onkeyup="tran(this)"  placeholder="请输入期望额度（元）">
+			   </div>
+			    <div class="mui-input-row">
+			        <label>期望期限：</label>
+			        <input type="text" class="mui-input-clear" placeholder="请输入期望期限（月）">
+			    </div>
+			    <div class="btnBox">
+			    	<button type="button" class="mui-btn mui-btn-primary affirmBtn" onclick="openMaterialList()">确定</button>
+			    </div>
+			</form>
+		</div>
+<!--	</div>
+</div>-->
+<button type="button" class="mui-btn mui-btn-primary loanInten" onclick="showLoanInten()">贷款意向</button>
+<script>
+	
+// 显示弹框
+function showLoanInten(){
+	$(".mask").show();
+	$(".product-alert").show();
+}
+	
+//隐藏弹框
+function hideLoanInten(){
+	$(".mask").hide();
+	$(".product-alert").hide();
+}
+
+//打开资料列表
+function openMaterialList() {
+	money();
+	window.location.href = "materialList.html";
+}
+
+// 格式化金额
+function tran(id)
+{
+	var v, j, sj, rv = "";
+	v = id.value.replace(/[^\d]/g,'').split(".");
+	j = v[0].length % 3;
+	sj = v[0].substr(j).toString();
+	for (var i = 0; i < sj.length; i++)
+	{
+	   rv = (i % 3 == 0) ? rv + "," + sj.substr(i, 1): rv + sj.substr(i, 1);
+	}
+	var rvalue = (v[1] == undefined) ? v[0].substr(0, j) + rv: v[0].substr(0, j) + rv + "." + v[1];
+	if (rvalue.charCodeAt(0) == 44)
+	{
+	   rvalue = rvalue.substr(1);
+	}
+	id.value = rvalue;
+}
+
+
+// 获取未格式化的金额
+function money() {
+	var str = '', _money, _newMoney;
+	_money = $("#money").val();
+	_newMoney = _money.split(',');
+	for(var i = 0; i < _newMoney.length; i++) {
+		str = str + _newMoney[i];
+	}
+	alert(str);
+}
+</script>
+</body>
+</html>

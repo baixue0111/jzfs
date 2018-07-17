@@ -1,0 +1,51 @@
+.personInfo{
+    border-bottom: 2px dashed #337ab7;
+    border-radius: 4px;
+    padding: 25px 0 25px 10px;
+}
+.editBtn{
+    text-align: right;
+}
+.baseInfoList .borderNone{
+    border-bottom: none;
+}
+.personInfo-first{
+    margin-top: 20px;
+}
+.personInfo .personInfo-first:nth-child(1) {
+    margin-top: 0;
+}
+.personInfo-first div{
+    font-size: 14px;
+    display: inline-block;
+    font-weight: bold;
+}
+.personInfo-first input{
+    padding-left: 3px;
+    border: none;
+    font-weight: normal;
+    background: none;
+    /* outline: none; */
+}
+.personInfo-first .marginLeftNone{
+    margin-left: 0;
+}
+.personInfo-first input::-webkit-input-placeholder{
+    color: #999;
+}
+.personInfo-first .marginLeft{
+    margin-left: 73px;
+}
+.personInfo-first .marginLeft-specil{
+    margin-left: 46px;
+}
+.inputLength{
+    width: 472px;
+}
+.btnBox{
+    text-align: center;
+    margin-top: 20px;
+}
+.btnWidth{
+    width: 7%;
+}

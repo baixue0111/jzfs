@@ -1,0 +1,83 @@
+.withDrawCon{
+	text-align: center;
+}
+.mui-media img{
+	border-radius: 50%;
+}
+.bankCon p{
+	margin: .1rem 0; 
+}
+.bankName{
+	color: #000;
+}
+
+.mui-media a{
+	overflow: hidden;
+}
+.mui-media img{
+	float: left;
+    margin-top: .12rem;
+}
+.mui-media .bankCon{
+	float: left;
+	width: 5.5rem;
+	text-align: left;
+}
+.mui-table-view-cell:after{
+	height: 0;
+}
+.mui-table-view{
+	background: none;
+}
+.mui-table-view li{
+	background: #fff;
+	margin-top: .2rem;
+	padding: 11px 15px;
+}
+.mui-table-view li:nth-child(1) {
+	margin-top: 0;
+}
+.withDraw-title{
+	color: #000;
+	font-size: .32rem;
+	text-align: left;
+}
+.withDraw{
+	margin-top: .2rem;
+	text-align: left;
+}
+.withDraw h4{
+	display: inline-block;
+}
+.withDraw input{
+	width: 5.8rem;
+	margin-bottom: 0;
+	border: none;
+	border-bottom: 1px solid rgba(0,0,0,.2);
+}
+.balance{
+	overflow: hidden;
+	margin-top: .2rem;
+	font-size: .3rem;
+}
+.balance div:nth-child(1){
+	float: left;
+	color: #666;
+}
+.balance div:nth-child(2){
+	float: right;
+	color: #3AA2EC;
+	font-weight: bold;
+}
+.affWithDraw{
+	width: 6rem;
+	margin-top: .6rem;
+	height: .8rem;
+    font-size: .32rem;
+}
+
+.defaultWithDraw{
+	background: #ddd;
+	border: none;
+	color: #827d7d;
+}

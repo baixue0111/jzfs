@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Expires" content="0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <@t.imp/> 
+ 	<@t.imp_ligerUI/>
+    <link rel="stylesheet" href="${webPath}/ccjf/css/reset.css">
+    <link rel="stylesheet" href="${webPath}/ccjf/css/mui.css">
+    <link rel="stylesheet" href="${webPath}/ccjf/css/signIn.css">
+    <script src="${webPath}/ccjf/js/common.js" type="text/javaScript"></script>
+    <script src="${webPath}/ccjf/js/jquery-3.3.1.min.js" type="text/javaScript"></script>
+    <script src="${webPath}/ccjf/js/mui.js" type="text/javaScript"></script>
+    <title>登录</title>
+</head>
+<body>
+<div class="signIn">
+    <div class="inputGroup">
+        <div class="inputDiv">
+            <div class="user-bg"><input type="text" placeholder="手机号" id="phone-name"></div>
+        </div>
+        <div class="inputDiv">
+            <div class="pass-bg"><input type="text" placeholder="请输入您的密码" id="password"></div>
+        </div>
+        <div class="varCode">
+            <input value="" type="text" placeholder="请输入验证码" required="required" name="loginValidCode" />
+            <img id="loginValidCodeImgId" src="${webPath}/login/loginValidCode" style="height:35px;margin-bottom: 3px;margin-left: 5px;"/>
+            <div>
+                <span style="color: gray;">看不清？</span>
+                <span onClick="$('#loginValidCodeImgId').attr('src','${webPath}/login/loginValidCode?rm='+Math.random())">换一张</span>
+            </div>
+        </div>
+        <div class="sgin-btn">
+            <div class="signBtn" onclick="signIn()">登录</div>
+        </div>
+        <p class="otherWay">其他登录方式</p>
+        <div class="selectSignWay">
+            <div class="sign-mode">
+                <span></span>
+                <img src="${webPath}/ccjf/images/weixin_03.png">
+                <span></span>
+            </div>
+        </div>
+        <!-- 注册 和 忘记密码 -->
+        <div class="registered">
+            <span onclick="openRegister()">手机号注册</span>
+            <span>忘记密码</span>
+        </div>
+    </div>
+</div>
+<script src="${webPath}/ccjf/js/signIn.js" type="text/javaScript"></script>
+</body>
+</html>

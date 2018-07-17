@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>收益</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/earnings.css" />
+    <link rel="stylesheet" href="css/tableListCss.css" />
+    <link rel="stylesheet" href="css/iconfont.css" />
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/mui.min.js"></script> 
+    <script src="js/common.js"></script> 
+</head>
+<body>
+
+<div class="mui-content">
+	<div class="mui-scroll-wrapper" id="pullRefresh">
+		<div class="mui-scroll">
+			<div class="keqixian">
+				<div class="kwqixian_one">2000.00</div>
+				<div class="keqixian_two">可提现(元)</div>
+				
+			</div>
+			<div class="tixian">
+				<div class="zongtixina">
+					<div class="zongtixina_one">总累计提现</div>
+					<div class="zongtixian_two"><span>2000</span><span><a href="WithdrawalRecord.html">提现记录</a></span></div>
+				</div>
+				<div class="yongjin">
+					<div class="yongjin_one">当前佣金</div>
+					<div class="yongjin_two">2000</div>
+				</div>
+			</div>
+			<div class="mui-input-group loanProgress">
+			    <div class="mui-input-row">
+			        <label>起始日期：</label>
+			    	<input type="date" placeholder="请选择起始日期">
+			    </div>
+			    <div class="mui-input-row">
+			        <label>截至日期：</label>
+			    	<input type="date" placeholder="请选择起始日期">
+			    </div>
+			    <div class="queryBtn">
+			    	<button type="button" class="mui-btn mui-btn-primary queryBtn" data-loading-text="查询中" data-loading-icon-position="right" data-loading-icon="mui-spinner mui-spinner-white">查询</button>
+			    </div>
+			</div>   
+			<div class="list">
+				<i></i>
+				<span>进件列表</span>
+				<!--<span>1个</span>-->
+			</div>
+			<div class="progressList">
+				<ul class="mui-table-view tableList">
+				    <li class="mui-table-view-cell">
+				    	<span class="firstSpan fontSize">客户姓名</span>
+				    	<span class="secondSpan fontSize">产品名</span>
+				    	<span class="secondSpan fontSize">日 期</span>
+				    	<span class="thirdSpan fontSize">状 态</span>
+				    </li>
+				    <li class="mui-table-view-cell clickLi">
+				    	<div class="mui-navigate-right">
+				    		<span class="firstSpan">阿白阿白</span>
+					    	<span class="secondSpan">永乐贷吖吖</span>
+					    	<span class="secondSpan">2018-06-17</span>
+					    	<span class="thirdSpan">已审核</span>
+				    	</div>
+				    </li>
+				</ul>
+		   </div>
+		</div>
+	</div>
+</div>
+<nav class="mui-bar mui-bar-tab">
+  	<div class="mui-tab-item" onclick="indexPage()">
+        <span class="mui-icon iconfont icon-shouye"></span>
+        <span class="mui-tab-label">首页</span>
+    </div>
+    <div class="mui-tab-item" onclick="progress()">
+        <span class="mui-icon iconfont icon-jindu"></span>
+        <span class="mui-tab-label">进度</span>
+    </div>
+    <div class="mui-tab-item mui-active">
+        <span class="mui-icon iconfont icon-shouyi"></span>
+        <span class="mui-tab-label">收益</span>
+    </div>
+    <div class="mui-tab-item" onclick="customer()">
+        <span class="mui-icon iconfont icon-kehu"></span>
+        <span class="mui-tab-label">客户</span>
+    </div>
+    <div class="mui-tab-item" onclick="my()">
+        <span class="mui-icon iconfont icon-wode"></span>
+        <span class="mui-tab-label">我的</span>
+    </div>
+</nav> 
+</body>
+<script src="js/earnings.js"></script>
+</html>
+<script type="text/javascript">
+	mui('.mui-scroll-wrapper').scroll({
+		deceleration: 0.0005 //flick 减速系数，系数越大，滚动速度越慢，滚动距离越小，默认值0.0006
+	});
+</script>

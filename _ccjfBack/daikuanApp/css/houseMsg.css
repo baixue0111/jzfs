@@ -1,0 +1,35 @@
+.cardAuthen .mortgageLabel{
+	width: 32%;
+}
+.cardAuthen label {
+    width: 36%;
+}
+.cardAuthen .mui-input-row input {
+    width: 64%;
+}
+.mortgage{
+	/*float: left;*/
+	overflow: hidden;
+}
+.mortgage label{
+	width: 14%;
+}
+.cardAuthen .mortgage input{
+	width: 8%;
+	float: left;
+	margin-top: .22rem;
+}
+.mortgageMoney{
+	display: none;
+}
+.mui-input-row input{
+	font-size: .28rem;
+}
+.cardAuthen .addressList{
+	width: 20%;
+    float: left;
+    font-size: .28rem;
+}
+.cardAuthen .addressList option{
+	text-align: center;
+}

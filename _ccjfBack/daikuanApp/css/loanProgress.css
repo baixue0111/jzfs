@@ -1,0 +1,70 @@
+.mui-search{
+	margin-top: .2rem;
+}
+.loanSearch span{
+	font-size: .28rem;
+}
+.queryBtn button{
+	width: 94%;
+}
+.mui-search input::-webkit-input-placeholder{
+	font-size: .32rem;
+}
+.loanProgress label{
+	font-size: .28rem;
+	color: #4c8ce4;
+	font-weight: bold;
+	line-height: .32rem;
+}
+.loanProgress input::-webkit-datetime-edit{
+	font-size: .28rem;
+}
+.list{
+	height: .75rem;
+    line-height: .5rem;
+    padding: .08rem .25rem 0 .25rem;
+    overflow: hidden;
+    font-size: .32rem;
+}
+.list i{
+	display: inline-block;
+	width: .1rem;
+    height: .25rem;
+	background: #4c8ce4;
+}
+/*.list span:nth-child(2) {
+	float: right;
+}*/
+
+/******************* 复选框**********************/
+
+.checkList ul{
+	width: 88%;
+    margin: .2rem auto;
+    overflow: hidden;
+}
+
+.checkList ul li{
+	margin: .1rem .2rem;
+	float: left;
+}
+.checkList ul li input{
+	margin-left: .15rem;
+}
+.checkList li label{
+	color: #000;
+	font-weight:normal;
+	padding-left: 0;
+}
+
+#selectBox ul li button{
+ font-size: .24rem;
+}
+
+.queryBtn{
+ text-align: center;
+}
+#queryBtn button{
+ 	width: 94%;
+    margin: .1rem auto .3rem auto;
+}

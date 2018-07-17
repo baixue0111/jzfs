@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>客户</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/loanProgress.css" />
+    <link rel="stylesheet" href="css/customer.css" />
+    <link rel="stylesheet" href="css/tableListCss.css" />
+    <link rel="stylesheet" href="css/iconfont.css" />
+    <script src="js/mui.min.js"></script>  
+    <script src="js/jquery-3.3.1.min.js"></script> 
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <script src="js/common.js"></script> 
+    <script src="js/vconsole.min.js"></script>
+</head>
+<body>
+<div class="mui-content">
+	<div class="mui-scroll-wrapper" id="pullRefresh">
+		<div class="mui-scroll">
+			<!--这里放置真实显示的DOM内容-->
+			<div class="mui-input-row mui-search loanSearch">
+			    <input type="search" class="mui-input-clear" id="getQueryVal" placeholder="查询关键字">
+			</div>
+			<div class="mui-input-group loanProgress">
+			    <div class="mui-input-row">
+			        <label>起始日期：</label>
+			    	<input type="date" placeholder="请选择起始日期">
+			    </div>
+			    <div class="mui-input-row">
+			        <label>截至日期：</label>
+			    	<input type="date" placeholder="请选择起始日期">
+			    </div>
+			    <div class="queryBtn">
+			    	<button type="button" onclick="getQueryVal()" class="mui-btn mui-btn-primary queryBtn" data-loading-text="查询中" data-loading-icon-position="right" data-loading-icon="mui-spinner mui-spinner-white">查询</button>
+			    </div>
+			</div>   
+			<div class="list">
+				<i></i>
+				<span>客户列表</span>
+				<!--<span>1个</span>-->
+			</div>
+			<div class="progressList">
+				<ul class="mui-table-view tableList">
+				    <li class="mui-table-view-cell">
+				    	<span class="cusFirstSpan fontSize">客户姓名</span>
+				    	<span class="cusSecondSpan fontSize">联系方式</span>
+				    	<span class="cusSecondSpan fontSize">录入日期</span>
+				    </li>
+				    <li class="mui-table-view-cell clickLi" id="a">
+				    	<div class="mui-navigate-right">
+				    		<span class="cusFirstSpan">阿白阿白</span>
+					    	<span class="cusSecondSpan">12354698745</span>
+					    	<span class="cusSecondSpan">2018-06-17</span>
+				    	</div>
+				    </li>
+				</ul>
+		   </div>
+		</div>
+	</div>
+</div>
+<nav class="mui-bar mui-bar-tab">
+	<a class="mui-tab-item">
+      	<span class="mui-icon iconfont icon-shouye"></span>
+      	<span class="mui-tab-label">首页</span>
+	</a>
+	<a class="mui-tab-item">
+	    <span class="mui-icon iconfont icon-jindu"></span>
+	    <span class="mui-tab-label">进度</span>
+	</a>
+  	<a class="mui-tab-item">
+      	<span class="mui-icon iconfont icon-shouyi"></span>
+      	<span class="mui-tab-label">收益</span>
+  	</a>
+  	<a class="mui-tab-item mui-active">
+      	<span class="mui-icon iconfont icon-kehu"></span>
+      	<span class="mui-tab-label">客户</span>
+  	</a>
+  	<a class="mui-tab-item">
+      	<span class="mui-icon iconfont icon-wode"></span>
+      	<span class="mui-tab-label">我的</span>
+  	</a>
+ </nav>
+<script type="application/javascript" src="js/customer.js"></script>
+<script>
+	
+	var vConsole = new VConsole();
+	function onBridgeReady(){
+		alert(111)
+	   WeixinJSBridge.call('hideToolbar');
+	}
+	
+	if (typeof WeixinJSBridge == "undefined"){
+	    if( document.addEventListener ){
+	        document.addEventListener('WeixinJSBridgeReady', onBridgeReady, false);
+	    }else if (document.attachEvent){
+	        document.attachEvent('WeixinJSBridgeReady', onBridgeReady); 
+	        document.attachEvent('onWeixinJSBridgeReady', onBridgeReady);
+	    }
+	}else{
+	    onBridgeReady();
+	}
+	
+</script>
+</body>
+</html>

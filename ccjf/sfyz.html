@@ -52,23 +52,30 @@
         <h2>完成认证需要核实你的身份信息，请拍摄你本人身份证</h2>
         <ul class="cl-list">
             <li>
-               <img src="images/sfz-zm_03.png">
-               <p>身份证正面扫描</p> 
+                <div class="showUpdateImg" id="showUpdateImg">
+                   <img src="images/sfz-zm_03.png" name="preview">
+                </div>
+               <p>身份证正面扫描</p>
+               <input type="file" id="sfz-file" accept="image/*" onchange="previewImage(this)" capture="camera" multiple />
             </li>
             <li>
-                <img src="images/sfz-fm_06.png">
-                <p>身份证反面扫描</p> 
+                <div class="showUpdateImg" id="showUpdateImg2">
+                    <img src="images/sfz-fm_06.png">
+                </div>
+                <p>身份证反面扫描</p>
+                <input type="file" id="sfz-file2" accept="image/*" onchange="previewImage2(this)" capture="camera" multiple />
             </li>
         </ul>
         <p class="sfyz-message">请核对信息是否一致：</p>
         <div class="edit-ipt">
-            <input class="edit-name" value="阿白白">
-            <input type="text" id="edit-ipt" value="610998077654543478">
+            <input class="edit-name" value="阿白白" placeholder="姓名">
+            <input type="text" id="edit-ipt" value="610998077654543478" placeholder="身份证号">
             <img src="images/edit_07.png" alt="">
         </div>
-        <div class="next-btn">下一步</div>
+        <div class="next-btn" onclick="uploadImg()">下一步</div>
     </section>
     <!-- 身份验证内容 结束 -->
+    <script src="js/sfyz.js"></script>
 </section>
 </body>
 </html>

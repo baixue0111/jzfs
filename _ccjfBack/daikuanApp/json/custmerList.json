@@ -1,0 +1,15 @@
+{
+"status": "0",
+    "message": "成功！",
+    "data": [{
+       "cust_name": "sy阿白",
+       "product_name": "我不贷",
+       "update_date": "2018-5-31",
+       "status": "已审核"
+	},{
+       "cust_name": "sy小白",
+       "product_name": "测试2",
+       "update_date": "2018-5-31",
+       "status": "审核不通过"
+    }]
+}

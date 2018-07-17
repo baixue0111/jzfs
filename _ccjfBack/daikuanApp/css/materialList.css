@@ -1,0 +1,15 @@
+.mui-content span{
+	font-size: .28rem;
+}
+.mui-content .floatLeft{
+	float: left;
+}
+
+.mui-content .floatRight{
+	float: right;
+	margin-right: .6rem;
+	color: #cb1623;
+}
+.mui-content .perfect{
+	color: #4c8ce4;
+}

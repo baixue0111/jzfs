@@ -1,0 +1,76 @@
+@charset "utf-8";
+/*=========================Reset_start==========================*/
+body,h1,h2,h3,h4,h5,h6,div,p,dl,dt,dd,ol,ul,li,form,table,th,td,a,img,span,strong,var,em,input,textarea,select,option{margin: 0; padding: 0;}
+html,body{font-family:"Helvetica Neue",Helvetica,Arial,"Microsoft YaheiUI","Micrisoft YaHei",SimHei,"\5B88\4F53",simsun,sans-serif; font-size: 12px; text-align: left;}
+ul,ol{list-style: none;}
+img{border: 0;}
+input,select,textarea{outline:0;}
+textarea{resize:none; overflow: auto;}
+table{border-collapse: collapse; border-spacing: 0;}
+th,strong,var,em{font-weight: normal; font-style: normal;}
+a{text-decoration: none;}
+a:link,a:visited,a:hover,a:active{text-decoration:none;} 
+body, html{
+    font-family: "PingFang-SC-Medium"
+}
+/******************************************************************以上是样式重置************************************************  */
+.mui-table-view li{
+	overflow: hidden;
+	height: 55px;
+	line-height: 33px;
+}
+.mui-table-view li div{
+	float: left;
+	font-size: .3rem;
+	font-weight: bold;
+}
+
+.mui-table-view li .btnGroup{
+	float: right;
+	color: #f25445;
+	font-size: .25rem;
+	font-weight: normal;
+}
+.mui-table-view li .successBtnGroup{
+	color: #4c8ce5;
+}
+
+.navbar{
+    margin-bottom: 0;
+}
+.navbar-bgcolor{
+    background: #222222;
+}
+.navbar-bgcolor .navbar-brand{
+    color: #9D9D9D;
+}
+.navbar-bgcolor .navbar-brand:hover{
+    color: #9D9D9D;
+}
+.navTab-left{
+    background: #F5F5F5;
+    color: #000;
+    padding-top: 20px;
+    padding-right: 0;
+    padding-left: 0;
+}
+.nav-stacked li a{
+    overflow: hidden;
+    font-size: 14px;
+}
+.navLeft{
+    float: left;
+    font-size: 14px;
+}
+.navRight{
+    float: right;
+    color: #333;
+    font-size: 14px;
+}
+.successUpload{
+    color: #f25445;
+}
+.navTab-right{
+    padding-top: 10px;
+    padding-left: 100px;
+}

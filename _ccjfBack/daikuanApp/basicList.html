@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>基本资料</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link href="css/basicList.css" rel="stylesheet"/>
+    <script src="js/mui.min.js"></script>  
+    <script src="js/jquery-3.3.1.min.js"></script> 
+    <script src="js/vconsole.min.js"></script>
+    <script src="js/common.js"></script> 
+</head>
+<body>
+<div class="mui-content">
+    <ul class="mui-table-view">
+	    <li class="mui-table-view-cell" onclick="cardAuthen()">
+	        <div class="mui-navigate-right">
+	        	<span class="floatLeft">身份证认证</span>
+	        	<span class="floatRight cardStatus">未完善</span>
+	        </div>
+	    </li>
+	    <li class="mui-table-view-cell" onclick="contact()">
+	        <div class="mui-navigate-right">
+	        	<span class="floatLeft">联系方式</span>
+	        	<span class="floatRight contactInfo">未完善</span>
+	        </div>
+	    </li>
+	    <li class="mui-table-view-cell" onclick="otherInfo()">
+	        <div class="mui-navigate-right">
+	        	<span class="floatLeft">其他信息</span>
+	        	<span class="floatRight jobInfo">未完善</span>
+	        </div>
+	    </li>
+	    <li class="mui-table-view-cell" onclick="houseInfo()">
+	        <div class="mui-navigate-right">
+	        	<span class="floatLeft">房产信息</span>
+	        	<span class="floatRight houseInfo">未完善</span>
+	        </div>
+	    </li>
+	</ul>
+	<input type="hidden" id="appliNo"/>
+</div>
+<script src="js/basicList.js"></script>
+<script>
+var vConsole = new VConsole();
+</script>
+</body>
+</html>

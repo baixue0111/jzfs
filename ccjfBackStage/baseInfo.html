@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>基本信息</title>
+    <!-- Bootstrap -->
+	<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/baseInfo.css">
+
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-11 editBtn">
+				<button class="btn btn-danger btnWidth" onclick="editClick()">修改</button>
+			</div>
+			<div class="col-md-11 baseInfoList">
+				<div class="personInfo">
+					<div class="personInfo-first">
+						<div>姓名：<input type="text"  id="name" value="白雪" placeholder="请输入姓名" maxlength="4"></div>
+						<div class="marginLeft">性别：<input type="text" id="sex" value="女" placeholder="请输入性别" maxlength="1"></div>
+					</div>
+					<div class="personInfo-first">
+						<div>电话：<input type="text"  value="18510799249" placeholder="请输入电话号码" maxlength="11"></div>
+						<div class="marginLeft">身份证号：<input type="text"  value="152825********3628" placeholder="请输入身份证号" maxlength="18"></div>
+					</div>
+					<div class="personInfo-first">
+						<div>地址：<input type="text" class="inputLength" id="address" value="某某省某某市某某区" placeholder="请输入住址" ></div>
+					</div>
+					<div class="personInfo-first">
+						<div>银行卡号：<input type="text" class="inputLength" id="bankNum" value="6228480886277959356" placeholder="请输入银行卡号" maxlength="19"></div>
+					</div>
+					<div class="personInfo-first">
+						<div>开户行：<input type="text" class="inputLength" value="某某支行" placeholder="请输入银行卡开户行"></div>
+					</div>
+				</div>
+				<div class="personInfo">
+					<div class="personInfo-first">
+						<div>亲属联系人姓名：<input type="text"  value="白雪" placeholder="请输入姓名"></div>
+						<div class="marginLeftNone">电话：<input type="text"  value="183****0064" placeholder="请输入电话" maxlength="11"></div>
+					</div>
+					<div class="personInfo-first">
+						<div>朋友联系人姓名：<input type="text"  value="阿白" placeholder="请输入联系人姓名" maxlength="4"></div>
+						<div class="marginLeftNone">电话：<input type="text"  value="183****0064" placeholder="请输入电话" maxlength="11"></div>
+					</div>
+					<div class="personInfo-first">
+						<div>同事联系人姓名：<input type="text"  value="阿白" placeholder="请输入联系人姓名" maxlength="4"></div>
+						<div class="marginLeftNone">电话：<input type="text"  value="183****0064" placeholder="请输入电话" maxlength="11"></div>
+					</div>
+				</div>
+				<div class="personInfo borderNone">
+					<div class="personInfo-first">
+						<div>职业：<input type="text"  value="一般员工" placeholder="请输入职业"></div>
+						<div class="marginLeft">单位名称：<input type="text"  value="北京精正方胜科技有限公司" placeholder="请输入公司名称"></div>
+					</div>
+					<div class="personInfo-first">
+						<div>单位地址：<input type="text"  value="景阳写字楼702" placeholder="请输入单位地址"></div>
+						<div class="marginLeft-specil">单位类型：<input type="text"  value="软件" placeholder="请输入单位类型"></div>
+					</div>
+				</div>
+				<div class="btnBox">
+					<button class="btn btn-primary btnWidth">保存</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script>
+		$(".baseInfoList input").attr("disabled", "disabled");
+		function editClick() {
+			console.log(111)
+			$(".baseInfoList input").removeAttr("disabled");
+			$("#name").focus();
+		}
+
+		
+		
+	</script>
+  </body>
+</html>

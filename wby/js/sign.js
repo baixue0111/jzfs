@@ -1,13 +1,12 @@
 $(function () {
     // 选择时间（选中的span 会有selectSpan类名）
-    $(".selectTime span").each(function () {
+    $(".eachTime li").each(function () {
         $(this).click(function () {
-            $(".selectTime span").removeClass("selectSpan");
+            $(".eachTime li").removeClass("selectSpan");
             $(this).addClass("selectSpan");
             //console.log($(this).html())
         })
     })
-
 
     siginBtn = function() {
         var selectTime = $(".selectSpan").html(),

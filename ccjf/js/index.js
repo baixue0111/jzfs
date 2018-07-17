@@ -1,3 +1,4 @@
+$(function () {
 // 首页轮播
 (function () {
     var $span = $(".btnGroup span");
@@ -23,3 +24,8 @@
 
     time = setInterval(next, 4000);
 })()
+// 跳转注册页面
+openRegister = function() {
+    window.location.href = "register.html";
+}
+})

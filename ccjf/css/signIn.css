@@ -1,0 +1,96 @@
+.signIn{
+    background: url("../images/signIn-bg.png") 0 0 no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    min-height: 13.34rem; 
+    position: relative;
+}
+.inputGroup{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-left: -2.5rem;
+    width: 5.01rem;
+    text-align: center;
+}
+.inputDiv{
+    border-bottom: .01rem solid #4C8CE5;
+    height: .71rem;
+    line-height: .71rem;
+    padding-left: .26rem;
+}
+.inputGroup .inputDiv:nth-child(2) {
+    margin-top: .38rem;
+}
+.inputDiv .user-bg {
+    background: url("../images/user.png") 0 .2rem no-repeat;
+    background-size: .28rem;
+    padding-left: .79rem;
+    text-align: left;
+}
+.inputDiv .pass-bg {
+    background: url("../images/password.png") 0 .2rem no-repeat;
+    background-size: .28rem;
+    padding-left: .79rem;
+}
+.inputDiv input{
+    height: .65rem;
+    line-height: .65rem;
+    border: none;
+    background: none;
+    font-size: .28rem;
+    display: inline-block;
+    width: 100%;
+    color: #333;
+}
+.inputDiv input::-webkit-input-placeholder {
+    color: #4C8CE5;
+}
+
+.otherWay{
+    text-align: center;
+    font-size: .24rem;
+    color: #0C4AD7;
+    margin: .44rem auto .19rem auto;
+}
+.selectSignWay{
+    text-align: center;
+}
+.sign-mode{
+    display: inline-block;
+    height: .55rem;
+    line-height: .55rem;
+    overflow: hidden;
+    margin-top: .19rem;
+}
+.sign-mode span{
+    float: left;
+    height: .02rem;
+    width: .88rem;
+    background: #74A9F2;
+    margin-top: 10%;
+}
+.sign-mode img{
+    float: left;
+    width: .54rem;
+    height: .55rem;
+    margin: 0 .15rem;
+}
+
+/*********************** 注册 和 忘记密码 **********************/
+.registered{
+    overflow: hidden;
+    width: 100%;
+    margin-top: .84rem;
+}
+.registered span{
+    font-size: .24rem;
+    color: #0C4AD7;
+}
+.registered span:nth-child(1) {
+    float: left;
+}
+.registered span:nth-child(2) {
+    float: right;
+}

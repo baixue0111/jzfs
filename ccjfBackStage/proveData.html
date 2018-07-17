@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>个人所提交资料</title>
+
+    <!-- Bootstrap -->
+	<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/proveData.css">
+
+
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <h2 class="col-md-12 title">上传证明材料</h2>
+    </div>
+    <div class="row">
+        <ul class="infoList">
+            <li>
+                <div class="positionDiv">
+                    <span class="text">请上传本人户口本照片</span>
+                    <span class="positionHr"></span>
+                </div>
+                <div class="showImg">
+
+                </div>
+                <div class="btnUpload">
+                    <input type="file" id="sfz-file" accept="image/*" onchange="previewImage(this)" capture="camera" multiple />
+                    <span>点击上传</span>
+                </div>
+            </li>
+        </ul>
+        <div class="affirmBtn">
+            <button type="button" class="btn btn-success btn-lg">确认提交</button>
+        </div>
+    </div>
+</div>
+<!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script>
+var list, resList, resGroupName, resGroupCd, imgSrcObjItem, imgSrcObj = [], uploadFile = [];
+getGroupId();
+function getGroupId() {
+    window.parent.test2()
+}
+$(function() {
+	//list = ${res_group_list};
+	//resList = ${res_group_res};
+	//alert(JSON.stringify(resList))
+	//salert(resList.length != 0)
+	console.log(JSON.stringify(list))
+	console.log(JSON.stringify(resList))
+	//console.log(${res_group_res}.length);
+	
+	if(resList.length != 0) {
+		$.each(resList, function (index, item) {
+			//console.log(item.resDetailCd)
+			var str = '<li>'+
+				            '<div class="person-text">'+
+						        '<div class="showImg" id="'+item.resDetailCd+'">'+
+						        	'<img src=http://localhost:8081/M_Web/'+item.resOriginPath+' class="showImg2">'+
+						        '</div>'+
+						    '</div>'+
+						    '<div class="upload">'+
+						        '<input type="file" accept="image/*" onchange="previewImage(this, '+index+')" capture="camera" multiple />'+
+						        '<span>点击上传</span>'+
+						    '</div>'+
+						'</li>';
+			$(".personInfo-list").append(str);
+			$(".showImg").show();
+			var _groupName = item.groupNam;  // 题目
+			resGroupName = item.resGroupName;
+			resGroupCd = item.resGroupCd;
+		})
+	} else {
+		$.each(list, function (index, item) {
+			var str = '<li>'+
+				            '<div class="person-text">'+
+						        '<span class="text">请上传'+item.resName+'</span>'+
+						        '<span class="positionHr"></span>'+
+						        '<div class="showImg" id="'+item.resCd+'">'+
+						        	'<img src="" class="showImg2">'+
+						        '</div>'+
+						    '</div>'+
+						    '<div class="upload">'+
+						        '<input type="file" accept="image/*" onchange="previewImage(this,'+index+')" capture="camera" multiple />'+
+						        '<span>点击上传</span>'+
+						    '</div>'+
+						'</li>';
+			$(".personInfo-list").append(str);
+			var _groupName = item.groupNam;  // 题目
+			resGroupName = item.groupName;
+			resGroupCd = item.groupCd;
+		})
+	}
+})
+	
+previewImage = function (file, _index){
+		
+    var getShowImg = $(file).parent().prev().children(".showImg").attr("id");
+    //console.log(getShowImg)
+    $(".showImg").show();
+    var MAXWIDTH  = 0;
+    var MAXHEIGHT = 0;
+    var div = document.getElementById(getShowImg);
+    if(div.style.width){
+        var MAXWIDTH  = div.offsetWidth;
+        var MAXHEIGHT = div.offsetHeight;
+    }
+
+    if (file.files && file.files[0])
+    {
+        var img = document.getElementById(getShowImg).getElementsByClassName("showImg2")[0];
+        // console.log(img)
+        img.onload = function(){
+            var rect = clacImgZoomParam(MAXWIDTH, MAXHEIGHT, img.offsetWidth, img.offsetHeight);
+            img.width  =  rect.width;
+            img.height =  rect.height;
+            img.style.marginTop = rect.top+'px';
+        }
+        var reader = new FileReader();
+        reader.readAsDataURL(file.files[0]);
+        reader.onload = function(evt){
+            var baseImg = evt.target.result.substring(22);
+            //console.log(baseImg)
+            
+            img.src = evt.target.result;
+            
+            imgSrcObjItem = {
+                "id": getShowImg,
+                "img_src": baseImg
+            }
+            
+            //console.log(baseImg)
+            //console.log(img.src)
+            //imgSrcObj.push(imgSrcObjItem);
+            imgSrcObj[_index] = imgSrcObjItem;
+            uploadFile = imgSrcObj;
+            console.log(uploadFile)
+        }
+    }
+}
+    
+function affirmSub() {
+	//console.log(uploadFile)
+	var _url ='/M_Web/upload/uploadFile'; 
+	if(resList.length !=0 ){
+		_url ='/M_Web/upload/updateFile';
+	}
+	//console.log(JSON.stringify(uploadFile))
+	//alert(resGroupCd)
+	$.ajax({
+	    type: 'POST',
+	    url: _url,
+	    dataType: "text",
+	    data: {
+	        "res_group_name": resGroupName,
+	        "res_group_cd": resGroupCd,
+	        "uploadFile": JSON.stringify(uploadFile)
+	    },
+	    success: function(data) {
+	    	window.location.href = "toResExtHTMl";
+	    }
+	}); 
+}
+
+</script>
+</body>
+</html>

@@ -55,10 +55,10 @@ body{
 }
 .sfyz-list li{
     float: left;
-    margin-left: .18rem;
+    margin-left: .17rem;
 }
 .sfyz-list li:last-child {
-    /* float: right; */
+     float: right; 
 }
 .sfyz-num{
     display: inline-block;

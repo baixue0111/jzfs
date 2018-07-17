@@ -1,0 +1,66 @@
+.register-nav{
+    background: url("../images/register-top_02.jpg") 0 0 no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height:.89rem;
+    line-height: .89rem;
+    text-align: center;
+    position: relative;
+}
+.register-nav .return {
+    display: inline-block;
+    background: url("../images/return_white_03.png") 0 0 no-repeat;
+    background-size: .26rem .43rem;
+    width: .26rem;
+    height: .43rem;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -.22rem;
+    margin-left: .27rem;
+}
+.register-nav .title{
+    display: inline-block;
+    font-size: .36rem;
+    color: #fff;
+}
+.user-enter{
+    width: 5.01rem;
+    text-align: center;
+    margin: .26rem auto 0 auto;
+}
+.desc{
+    text-align: center;
+    font-size: .24rem;
+    color: #0C4AD7;
+    margin: .3rem auto;
+}
+.user-phone{
+    border-bottom: .01rem solid #4C8CE5;
+    padding-left: .26rem;
+}
+.user-phone div{
+    padding-left: .79rem;
+    text-align: left;
+    height: .71rem;
+    line-height: .71rem;
+    margin-top: .25rem;
+}
+
+.verificalCode{
+    background: url("../images/verificalCode.png") 0 .2rem no-repeat;
+    background-size: .28rem;
+}
+.verificalCode input{
+    height: .65rem;
+    line-height: .65rem;
+    border: none;
+    background: none;
+    font-size: .28rem;
+    display: inline-block;
+    width: 100%;
+    color: #333;
+}
+.user-enter input::-webkit-input-placeholder {
+    color: #4C8CE5;
+}
